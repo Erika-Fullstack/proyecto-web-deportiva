@@ -31,6 +31,7 @@ h1 {
     font-size: 4rem;
 }
 h2 {
+    width: 100%;
     font-size: 3rem;
     color: #B3D92B;
     text-align: center;
@@ -113,6 +114,19 @@ section {
     background-position: center;
     background-size: cover;
 }
+.seccionInicio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgInicio {
+    width: 40%;
+    min-height: 30;
+}
+.textInicio {
+    width: 40%;
+    min-height: 30;
+}
 .logoFooter {
     display: flex;
     justify-content: center;
@@ -147,6 +161,10 @@ section {
     padding-left: 0.2rem;
     font-size: 0.8rem;
     font-weight: normal;
+}
+.seccionInicio div {
+    width: 50%;
+    border: green 3px solid;
 }
 .navFooter ul {
     list-style: none;
