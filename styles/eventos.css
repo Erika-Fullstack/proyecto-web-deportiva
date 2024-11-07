@@ -3,18 +3,26 @@ section {display: flex;
         justify-content: center;}
 
 section div {width: 80%;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
 }
 
 h2 {width: 100%;
-    justify-self: center;}
+    justify-self: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid blueviolet} */}
 
 h3 {padding-bottom: 2rem;
-text-align: center;}
+    text-align: center;}
+
+h4 {margin-top: 1rem;
+    margin-bottom: 0.5rem;}
+h5 {margin-top: 1rem;
+    margin-bottom: 0.5rem;}
 
 table {width: 100%;
     text-align: center;
-margin-top: 5%;}
+    padding-bottom: 1rem;}
 
 td {padding-top: 0.2rem;
     padding-bottom: 0.2rem;}
@@ -26,9 +34,9 @@ th {padding-top: 0.2rem;
 .titulo {width: 100%; text-align: center; margin: 2rem;}
 
 .texto {margin-left: 10%;
-margin-right: 10%;}
+        margin-right: 10%;}
 
-article {margin-bottom: 10%;
+article {margin-bottom: 5%;
     padding-top: 2.5%;
     padding-left: 5%;
     padding-right: 5%;
