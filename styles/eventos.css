@@ -1,10 +1,30 @@
 section {display: flex;
         flex-wrap: wrap;
-    justify-content: space-between;}
+        justify-content: center;}
 
-section div {width: 40%;}
+section div {width: 80%;
+    border: 2px solid yellowgreen;
+}
 
 h2 {width: 100%;
     justify-self: center;}
 
-table {width: 85%;}
+h3 {padding-bottom: 2rem;
+text-align: center;}
+
+table {width: 100%;
+    text-align: center;
+margin-top: 5%;}
+
+.titulo {width: 100%; text-align: center; margin: 2rem;}
+
+.texto {margin-left: 10%;
+margin-right: 10%;}
+
+article {margin-bottom: 10%;
+    padding-top: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+    border-radius: 1rem}
