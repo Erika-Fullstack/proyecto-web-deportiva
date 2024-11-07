@@ -1,0 +1,36 @@
+.headerClub {
+    min-height: 40rem;
+    width: 100%;
+    background-image: url('/img/asociacion/pistapadel.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.info {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.titulo {
+    text-align: center;
+    color: #618c03;
+}
+
+.historia {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.historia2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.historia2 h3 {
+    color: #618c03;
+}
+
+.historia2 p {
+    margin-top: 0.5rem;
+}
