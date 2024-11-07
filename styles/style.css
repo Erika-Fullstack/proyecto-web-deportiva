@@ -1,7 +1,15 @@
+@font-face {
+    font-family: 'Padel';
+    src: url('../fonts/Antipasto-Pro-Regular-trial.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
+    font-family: Padel;
+
 }
 
 nav {
@@ -16,7 +24,7 @@ nav {
 nav ul li {
     display: inline;
     font-weight: bold;
-    border: 3px blue solid;
+
 }
 a {
     text-decoration: none;
@@ -29,12 +37,15 @@ nav img {
 h1 {
     color: #B3D92B;
     font-size: 4rem;
+
+
 }
 h2 {
-    width: 100%;
+
     font-size: 3rem;
     color: #B3D92B;
     text-align: center;
+
 }
 h3 {
     font-size: 2rem;
@@ -57,7 +68,9 @@ main {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    text-justify: distribute;
 }
 footer {
     display: flex;
@@ -76,7 +89,6 @@ section {
 /*************** CLASES NOMBRADAS ***********************/
 .divLogo {
     width: 45%;
-    border: 4px blue solid;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -85,7 +97,6 @@ section {
 }
 .divNavegacion {
     width: 45%;
-    border: 4px blue solid;
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
@@ -115,17 +126,20 @@ section {
     background-size: cover;
 }
 .seccionInicio {
+    border: #B3D92B solid 5px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 .imgInicio {
-    width: 40%;
-    min-height: 30;
+    border: red solid 3px;
+    width: 50%;
+
 }
-.textInicio {
-    width: 40%;
-    min-height: 30;
+.divInicio {
+    border: yellow solid 3px;
+    width: 80%;
+    min-height: 15rem;
 }
 .logoFooter {
     display: flex;
@@ -133,7 +147,6 @@ section {
     align-items: center;
     width: 20%;
     min-height: 12rem;
-    border: yellow 3px solid;
 }
 .navFooter {
     display: flex;
@@ -141,12 +154,12 @@ section {
     align-items: center;
     width: 20%;
     min-height: 12rem;
-    border: green 3px solid;
+
     text-decoration: none;
 }
 .copyright {
     width: 90%;
-    border: purple 3px solid;
+
 }
 
 /****************CLASES COMBINADAS *****************/
@@ -162,10 +175,10 @@ section {
     font-size: 0.8rem;
     font-weight: normal;
 }
-.seccionInicio div {
+/* .seccionInicio div {
     width: 50%;
     border: green 3px solid;
-}
+} */
 .navFooter ul {
     list-style: none;
     color: #7B8DA6;
