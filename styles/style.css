@@ -3,7 +3,11 @@
     padding: 0;
     font-family: Helvetica;
 }
+
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     display: flex;
     background-color: white;
@@ -12,20 +16,25 @@ nav {
 }
 nav ul li {
     display: inline;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
 }
 
-li {
-    list-style: none;
-    
-}
+
 nav img {
     height: 5rem;
 }
 h1 {
-    color: #618C03;
+    color: #B3D92B;
     font-size: 4rem;
-    background-color: white;
-
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
 }
 header {
     display: flex;
@@ -39,13 +48,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #B3D92B;
+    background-color: #C1CBD9;
     min-height: 40rem;
     width: 100%;
 }
-h2 {
-    font-size: 3rem;
-}
+
 p {
     font-size: 1rem;
 }
@@ -60,8 +67,38 @@ section {
     border: 4px red dotted;
 }
 
-/* *************** CLASES NOMBRADAS ********************** */
-
+/*************** CLASES NOMBRADAS ***********************/
+.divLogo {
+    width: 45%;
+    border: 4px blue solid;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+}
+.divNavegacion {
+    width: 45%;
+    border: 4px blue solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    min-height: 5rem;
+}
+.langSeleccion {
+    font-size: 0.8rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+}
+.navPaginas {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+}
 .headerBienvenida {
     min-height: 40rem;
     width: 100%;
@@ -69,4 +106,18 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/****************CLASES COMBINADAS *****************/
+.navPaginas li {
+    list-style: none;
+    padding-right: 1rem;
+    padding-left: 2rem;
+}
+.langSeleccion li {
+    list-style: none;
+    padding-right: 1rem;
+    padding-left: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: normal;
 }
