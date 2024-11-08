@@ -8,29 +8,43 @@
     <meta name="keywords" content="padel, club, Amorebieta, Zornotza" />
     <meta name="author" content="Nerea, Erika, Belen, Moises" />
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/club.css" />
+    <link rel="stylesheet" href="styles/asociacion.css" />
     <link rel="stylesheet" href="styles/styleslide.css" />
   </head>
 
   <body>
     <nav>
-      <img src="img/logo_provisional.png" alt="Logo" />
+        <!-- LOGO DEL SITIO -->
+        <div class="divLogo">
+            <a href="index.html"><img src="img/logo-zpe.png" alt="Logo"></a>
+        </div>
 
-      <ul>
-        <li>LA ASOCIACIÓN</li>
-        <li>NOTICIAS</li>
-        <li>EVENTOS</li>
-        <li>CONTACTO</li>
-      </ul>
-    </nav>
+        <!-- NAVEGACION -->
+        <div class="divNavegacion">
+          <div class="langSeleccion">
+              <ul>
+                  <li><a href="#">Euskara</a></li>
+                  <li><a href="#">English</a></li>
+              </ul>
+          </div>
+          <div class="navPaginas">
+              <ul>
+                  <li><a href="asociacion.html">LA ASOCIACIÓN</a></li>
+                  <li><a href="noticias.html">NOTICIAS</a></li>
+                  <li><a href="eventos">EVENTOS</a></li>
+                  <li><a href="contacto.html">CONTACTO</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
 
-    <header class="headerClub">
+  <header class="headerAsociacion">
       <h1>La Asociación</h1>
-    </header>
+  </header>
 
     <!--******************** TRABAJAR AQUI****************************** -->
     <main>
-      <section>
+      <section class="s1">
         <div class="info">
           <div class="carrusel">
             <div class="slider" id="slider">
@@ -49,26 +63,20 @@
                 </li>
                 <li class="slide" id="slide3">
                     <img
-                        src="img/asociacion/palaypelotas.jpg"
-                        alt="photo 3"
+                        src="img/asociacion/manosconraqueta.jpg"
+                        alt="manos con pala de padel"
                     />
                 </li>
-                <li class="slide" id="slide3">
+                <li class="slide" id="slide4">
                     <img
-                        src="img/asociacion/palaypelotas.jpg"
-                        alt="photo 3"
+                        src="img/asociacion/partidodepadel.jpg"
+                        alt="partido de padel"
                     />
                 </li>
-                <li class="slide" id="slide3">
+                <li class="slide" id="slide5">
                     <img
-                        src="img/asociacion/palaypelotas.jpg"
-                        alt="photo 3"
-                    />
-                </li>
-                <li class="slide" id="slide3">
-                    <img
-                        src="img/asociacion/palaypelotas.jpg"
-                        alt="photo 3"
+                        src="img/asociacion/mujerjugandopadel.jpg"
+                        alt="mujer jugando a padel"
                     />
                 </li>
               </ul>
@@ -164,6 +172,32 @@
       </section>
     </main>
 
-    <footer></footer>
+    <section class="s2">
+      <div class="llamada">
+        <button id="boton1" class="boton">Únete a nuestra Asociación de Pádel</button>
+      </div>  
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+      <div class="logoFooter">
+        <img src="img/logo-zpe-footer.png" alt="Logo">
+      </div>
+
+      <div class="navFooter">
+          <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="asociacion.html">La Asociación</a></li>
+              <li><a href="noticias.html">Noticias</a></li>
+              <li><a href="eventos">Eventos</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+
+      </div>
+      <div class="copyright">
+          <p>©2024 Asociación de Pádel de Amorebieta. Todos los derechos reservados. </p>
+      </div>
+    </footer>
+
   </body>
 </html>

@@ -1,4 +1,4 @@
-.headerClub {
+.headerAsociacion {
     min-height: 40rem;
     width: 100%;
     background-image: url('/img/asociacion/pistapadel.jpg');
@@ -33,4 +33,31 @@
 
 .historia2 p {
     margin-top: 0.5rem;
+}
+
+.s2 {
+    background-color: #b3d92b;
+    width: 100%;
+}
+
+.llamada {
+    background-color: #b3d92b;
+    padding: 2px;
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    margin: 5px 3px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #618c03;
+    color: #081526;
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+button:hover{
+    cursor: pointer;
 }
