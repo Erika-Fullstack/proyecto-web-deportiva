@@ -38,6 +38,10 @@
 .s2 {
     background-color: #b3d92b;
     width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 5rem;
+
 }
 
 .llamada {
@@ -60,4 +64,15 @@ button{
 
 button:hover{
     cursor: pointer;
+}
+
+.rrss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    min-height: 12rem;
+    color: #7B8DA6;
+    text-decoration: none;
+    font-size: xx-large;
 }
