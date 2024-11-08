@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contacto</title>
     <meta name="description" content="Asociación de Padel de Amorebieta">
     <meta name="keywords" content="padel, asociacion, Amorebieta, Zornotza">
     <meta name="author" content="Nerea, Erika, Belen, Moisés">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contacto.css">
 </head>
 <body>
     <nav>
@@ -35,27 +36,46 @@
     </nav>
 
     <!-- HEADER -->
-    <header class="headerBienvenida">
+    <header class="headerContacto">
         <div class="bienvenida">
         <h1>Contacto</h1>
-        <p>Texto contacto</p>
         </div>
 
     </header>
     
     <!--******************** TRABAJAR AQUI****************************** -->
     <main>
-        <section class="seccionInicio">
+        <section class="seccionContacto">
             <!-- CONTENEDOR DE FOTO -->
-            <div class="divInicio">
-                <img  class="imgInicio" src="img/padel_main_img.jpg" alt="Padel Amorebieta">
+            <div class="divContacto">
+                <img  class="imgContacto" src="img/padel_main_img.jpg" alt="Padel Amorebieta">
             </div>
             <!-- TEXTO MISIÓN -->
-            <div class="divInicio2">
-                <h2>Misión</h2>
-                <p>La Asociación de Pádel de Amorebieta tiene como misión principal fomentar el deporte del pádel en la comunidad, promoviendo valores de amistad, respeto y esfuerzo. La Asociación busca proporcionar un espacio accesible y bien equipado donde los jugadores puedan desarrollar sus habilidades y disfrutar de un ambiente deportivo saludable. Además, se dedica a organizar actividades que permitan a sus miembros mejorar técnicamente y participar en competiciones que promuevan el crecimiento del pádel en la región.<br>
-                <br>
-                En resumen, la Asociación de Pádel de Amorebieta es un pilar en la comunidad deportiva local, comprometido con el desarrollo del pádel y con la creación de una comunidad unida en torno a este deporte.</p>
+            <div class="divContacto2">
+                <h2>Escríbenos</h2>
+                <article>
+                    <!-- <p>La Copa Amorebieta es otro de los torneos emblemáticos organizados por el Club de Pádel Amorebieta. A diferencia del Torneo San Miguel, que se celebra en septiembre, la Copa Amorebieta tiene lugar al inicio de la temporada de primavera, normalmente en la primera semana de abril. Este evento busca reunir a jugadores de distintos niveles en una competición vibrante, que marca el inicio de la temporada de actividades al aire libre en el club.</p> -->
+                    <form action="#" method="get">
+                    
+                        <label for="name">Nombre:</label><br>
+                        <input type="text" id="nombre" name="_nombre" required><br>
+                        
+                        
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="_email" required><br>
+                        
+    
+                        <label for="phone">Teléfono:</label><br>
+                        <input type="text" id="tel" name="_tel" required><br>
+                        
+    
+                        <label for="message">Message</label><br>
+                        <input type="textarea" id="mensaje" name="_mensaje"><br>
+                        
+    
+                        <button type="submit">Enviar</button>
+                   </form>
+                </article>
             </div>
 
 

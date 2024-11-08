@@ -1,0 +1,89 @@
+.headerContacto {
+    min-height: 25rem;
+    width: 100%;
+    background-image: url('/img/contacto/header_contacto_img2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.seccionContacto {
+    /* border: #B3D92B solid 5px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.imgContacto {
+   
+    /* border: red solid 3px; */
+    width: 95%;
+
+}
+.divContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-height: 15rem;
+}
+.divContacto2 {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-left: 2rem;
+    min-height: 15rem;
+    border: 3px green solid;
+}
+.divContacto2 h2 {
+    width: 100%;
+}
+
+article {
+    width: 100%;
+    margin-bottom: 5%;
+    padding-top: 2.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+}
+form {
+    min-height: 25rem;
+    padding-top: 1rem;
+    /* border: 3px solid red; */
+}
+label {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: #7B8DA6;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+form input {
+    border: #B3D92B 0.12rem solid;
+    margin-bottom: 1rem;
+    width: 100%;
+    min-height: 2rem;
+    border-radius: 0.1rem;
+}
+#mensaje {
+    height: 5rem;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 3rem;
+    color: white;
+    font-family: PadelBold;
+    font-size: 1.2rem;
+    background-color: #B3D92B;
+    border: #B3D92B solid 1rem;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+}
