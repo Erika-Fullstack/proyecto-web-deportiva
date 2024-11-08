@@ -16,34 +16,46 @@ h3 {padding-bottom: 2rem;
     text-align: center;}
 
 h4 {margin-top: 1rem;
-    margin-bottom: 0.5rem;}
+    margin-bottom: 0.5rem;
+    font-weight: bolder;}
 
 h5 {margin-top: 1rem;
-    margin-bottom: 0.5rem;}
+    margin-bottom: 0.5rem;
+    font-weight: bold;}
 
 table {width: 100%;
     text-align: center;
-    padding-bottom: 1rem;}
+    padding-bottom: 1rem;
+    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+    border-radius: 5%;
+    -moz-border-radius: 5px;
+    border-collapse: collapse;
+    border: none;}
 
-td {padding-top: 0.2rem;
-    padding-bottom: 0.2rem;}
+
+td {padding-top: 0.3rem;
+    padding-bottom: 0.3rem;}
 
 th {padding-top: 0.2rem;
     padding-bottom: 0.2rem;}
 
+table tr:hover td {background-color: #ddd}
 
 .titulo {width: 100%; text-align: center; margin: 2rem;}
 
 .texto {margin-left: 10%;
-        margin-right: 10%;}
+        margin-right: 10%;
+        }
 
-article {margin-bottom: 5%;
+article {
+    margin-bottom: 5%;
     padding-top: 2.5%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
     background-color: white;
-    border-radius: 1rem}
+    border-radius: 1rem;
+    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);}
 
 .destacado {font-size: 1.5rem;
             font-weight: bolder;}
