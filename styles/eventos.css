@@ -25,19 +25,34 @@ h5 {margin-top: 1rem;
 
 table {width: 100%;
     text-align: center;
-    padding-bottom: 1rem;
     box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
     border-radius: 5%;
     -moz-border-radius: 5px;
     border-collapse: collapse;
-    border: none;}
+    border: none;
+    border-collapse:separate;
+    border-spacing: 0px 0px;}
 
 
 td {padding-top: 0.3rem;
-    padding-bottom: 0.3rem;}
+    padding-bottom: 0.3rem;
+    background-color: white; color: #081526;}
 
 th {padding-top: 0.2rem;
-    padding-bottom: 0.2rem;}
+    padding-bottom: 0.2rem;
+    background-color: #081526; 
+    color: white; 
+    font-size: 2rem; 
+    font-weight: bolder;}
+
+
+    th:first-of-type {border-top-left-radius: 1rem;}
+    
+    th:last-of-type {border-top-right-radius: 1rem; }
+    
+    tr:last-of-type td:first-of-type {border-bottom-left-radius: 1rem;}
+      
+    tr:last-of-type td:last-of-type {border-bottom-right-radius: 1rem;}
 
 table tr:hover td {background-color: #ddd}
 
