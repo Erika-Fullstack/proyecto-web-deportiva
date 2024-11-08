@@ -17,6 +17,7 @@ h3 {padding-bottom: 2rem;
 
 h4 {margin-top: 1rem;
     margin-bottom: 0.5rem;}
+
 h5 {margin-top: 1rem;
     margin-bottom: 0.5rem;}
 
@@ -46,3 +47,5 @@ article {margin-bottom: 5%;
 
 .destacado {font-size: 1.5rem;
             font-weight: bolder;}
+
+.margen {padding-left: 20%;}
