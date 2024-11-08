@@ -76,3 +76,12 @@ article {
             font-weight: bolder;}
 
 .margen {padding-left: 20%;}
+
+.headerEventos {
+    min-height: 25rem;
+    width: 100%;
+    background-image: url('/img/eventos/head-eventos.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
