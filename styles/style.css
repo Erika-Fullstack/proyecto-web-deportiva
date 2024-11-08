@@ -60,7 +60,7 @@ h2 {
     font-size: 3rem;
     color: #B3D92B;
     text-align: left;
-
+    margin-bottom: 1rem;
 }
 h3 {
     font-family: PadelBold;
@@ -165,16 +165,25 @@ section {
 }
 .imgInicio {
    
-    border: red solid 3px;
-    width: 50%;
+    /* border: red solid 3px; */
+    width: 95%;
 
 }
 .divInicio {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: yellow solid 3px;
     width: 80%;
+    min-height: 15rem;
+}
+.divInicio2 {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-left: 2rem;
     min-height: 15rem;
 }
 .logoFooter {
