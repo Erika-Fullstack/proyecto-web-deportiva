@@ -70,8 +70,14 @@ h3 {
 }
 h4 {
     font-family: PadelBold;
-    font-size: 1.5rem;
-    color: #B3D92B;
+    font-size: 1.8rem;
+    color: #081526;
+    text-align: left;
+}
+h5 {
+    font-family: PadelBold;
+    font-size: 1.4rem;
+    color: #081526;
     text-align: left;
 }
 header {
@@ -158,12 +164,16 @@ section {
     flex-wrap: nowrap;
 }
 .imgInicio {
-    /* border: red solid 3px; */
+   
+    border: red solid 3px;
     width: 50%;
 
 }
 .divInicio {
-    /* border: yellow solid 3px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: yellow solid 3px;
     width: 80%;
     min-height: 15rem;
 }
