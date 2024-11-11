@@ -59,7 +59,11 @@ tr:last-of-type td:first-of-type {border-bottom-left-radius: 1rem;}
       
 tr:last-of-type td:last-of-type {border-bottom-right-radius: 1rem;}
 
-table tr:hover td {background-color: #ddd}
+.destacado {background-color: #618C03; 
+    color: white; }
+
+table tr:hover td {background-color: #ddd;
+                    color: #081526;}
 
 .titulo {width: 100%; text-align: center; margin: 2rem;}
 
@@ -77,8 +81,6 @@ article {
     border-radius: 1rem;
     box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);}
 
-.destacado {background-color: #618C03; 
-    color: white; }
 
 .margen {padding-left: 20%;}
 
@@ -93,7 +95,7 @@ article {
 
 /******************* MEDIA QUERIES ******************/
 
-@media screen and (min-width:801px)  {
+@media screen and (min-width:768px)  {
     .texto {width: 100%;}
     
 }
