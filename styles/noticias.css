@@ -1,91 +1,37 @@
-@font-face {
-    font-family: 'Padel';
-    src: url("../fonts/gothamrnd_book.otf") format('opentype');
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: 'PadelBold';
-    src: url("../fonts/gothamrnd_bold.otf") format('opentype');
-    font-style: normal;
-    font-weight: normal;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Padel;
-
-}
-
-nav {
+.rrss {
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    display: flex;
-    background-color: white;
-    min-height: 5rem;
-}
-nav ul li {
-    display: inline;
-    font-weight: bold;
-
-}
-a {
+    width: 20%;
+    min-height: 12rem;
+    color: #7B8DA6;
     text-decoration: none;
+    font-size: xx-large;
 }
+a:visited {color: #7B8DA6;}
 
-
-nav img {
-    height: 2rem;
-}
-nav a {
-    color: #081526;
-}
-nav a:hover {
-    color: #B3D92B;
-    transition: 0.4s;
-
-}
-h1 {
-    color: #B3D92B;
-    font-size: 4rem;
-    font-family: PadelBold;
-    text-align: center;
-
-
-}
-h2 {
-    font-family: PadelBold;
-    font-size: 3rem;
-    color: #B3D92B;
-    text-align: center;
-
-}
-h3 {
-    font-size: 2rem;
-}
-
-.headernoticias {
-    min-height: 25%;
+.headerNoticias{
+    min-height: 25rem;
     width: 100%;
-    background-image: url("/img/bienvenida\ padel");
+    background-image: url('/img/img.noticias/bienvenida\ padel');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-/* Main */
+.ultimasNoticias {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-left: 2rem;
+    min-height: 15rem;
+    border: 3px green solid;}
 
-main {
-    background-color: #B3D92B;
-}
-
-h2 {
-    background-color: #B3D92B;
-    color: #081526;
-    padding-left: 3rem;
-    text-align: center;
+.ultimasNoticias h2 {
+    width: 100%;
 }
 
 /* Grid */
@@ -115,7 +61,7 @@ background-color: #B3D92B;}
     color: #081526;
     background-color: #B3D92B;}
 
-    .divlogo {
+    .divLogo {
         width: 45%;
         display: flex;
         flex-wrap: wrap;
@@ -123,7 +69,7 @@ background-color: #B3D92B;}
         align-items: center;
         min-height: 4rem;
     }
-    .divnavegacion {
+    .divNavegacion {
         width: 45%;
         display: flex;
         flex-wrap: wrap;
@@ -132,98 +78,44 @@ background-color: #B3D92B;}
         min-height: 5rem;
         padding-bottom: 0.4rem;
     }
-    .lanseleccion {
+    .lanSeleccion {
         font-size: 0.8rem;
         width: 100%;
         display: flex;
         flex-wrap: nowrap;
         justify-content: end;
     }
-    .navpaginas {
+    .navPaginas {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: end;
     }
-    .headerbienvenida {
-        min-height: 40rem;
-        width: 100%;
-        background-image: url('/img/img.noticias/bienvenida\ padel');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    .seccioninicio {
+   
+    
+    .seccionInicio {
         /* border: #B3D92B solid 5px; */
         display: flex;
         justify-content: space-evenly;
         flex-wrap: nowrap;
     }
-    .imginicio {
+    .imgInicio {
         /* border: red solid 3px; */
         width: 50%;
     
     }
-    .divinicio {
+    .divInicio {
         /* border: yellow solid 3px; */
         width: 80%;
-        min-height: 15rem;
-    }
-    .logofooter {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 20%;
-        min-height: 12rem;
-    }
-    .navfooter {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 20%;
-        min-height: 12rem;
-        color: #7B8DA6;
-        text-decoration: none;
-    }
-    .navFooter ul li a  {
-        color: #7B8DA6;
-    }
-    .navfooter ul li a:hover {
-        color: #B3D92B;
-        transition: 0.5s;
-    }
-    .copyright {
-        width: 90%;
+        min-height: 15rem;}
+   
+    /******************* MEDIA QUERIES ******************/
+
+@media screen and (min-width:768px)  {
+    .texto {width: 100%;}
     
-    }
-    
-    /****************CLASES COMBINADAS *****************/
-    .navpaginas li {
-        list-style: none;
-        padding-right: 1rem;
-        padding-left: 2rem;
-    }
-    .langseleccion li {
-        list-style: none;
-        padding-right: 1rem;
-        padding-left: 0.2rem;
-        font-size: 0.8rem;
-        font-weight: normal;
-    }
-    /* .seccionInicio div {
-        width: 50%;
-        border: green 3px solid;
-    } */
-    .navfooter ul {
-        list-style: none;
-        color: #7B8DA6;
-        line-height: 2rem;
-    }
-    .copyright p {
-        text-align: center;
-        color: #7B8DA6;
-        font-size: 0.7rem;
-    }
-    .logofooter img {
-            height: 9rem;
-    }
+}
+
+@media screen and (min-width: 320px)  { 
+    .texto {width: 100%;} 
+}
