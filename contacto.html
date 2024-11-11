@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <meta name="description" content="Asociación de Padel de Amorebieta">
-    <meta name="keywords" content="padel, asociacion, Amorebieta, Zornotza">
+    <!-- //// SEO //// -->
+    <title>Contacto | Asociación de Pádel de Amorebieta</title>
+    <meta name="description" content="Contáctanos para unirte a la comunidad de pádel en Amorebieta. Resolveremos tus dudas sobre eventos y actividades inclusivas para todos los niveles">
+    <meta name= “robots” value= “index,follow”>
+    <meta name="keywords" content="padel, asociacion, asociación de padel, Amorebieta, Zornotza, club de padel, club">
     <meta name="author" content="Nerea, Erika, Belen, Moisés">
+    <!-- ///// FIN SEO /////// -->
+    <link rel="icon" href="img/favicon-zpe (copia).png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/contacto.css">
     <link
@@ -55,13 +59,14 @@
         <section class="seccionContacto">
             <!-- CONTENEDOR DE FOTO -->
             <div class="divContacto">
-                <img  class="imgContacto" src="img/padel_main_img.jpg" alt="Padel Amorebieta">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5814.210488722561!2d-2.737935080140486!3d43.2282530281663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e3426975c2913%3A0x404f58273cb9dc0!2s48340%20Amorebieta-Echano%2C%20Vizcaya!5e0!3m2!1ses!2ses!4v1731065157535!5m2!1ses!2ses" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <!-- TEXTO MISIÓN -->
             <div class="divContacto2">
                 <h2>Escríbenos</h2>
+                <p>Contáctanos para unirte a la comunidad de pádel en Amorebieta. Resolveremos tus dudas sobre eventos, clases y actividades inclusivas para todos los niveles.</p>
                 <article>
-                    <!-- <p>La Copa Amorebieta es otro de los torneos emblemáticos organizados por el Club de Pádel Amorebieta. A diferencia del Torneo San Miguel, que se celebra en septiembre, la Copa Amorebieta tiene lugar al inicio de la temporada de primavera, normalmente en la primera semana de abril. Este evento busca reunir a jugadores de distintos niveles en una competición vibrante, que marca el inicio de la temporada de actividades al aire libre en el club.</p> -->
+          
                     <form action="#" method="get">
                     
                         <label for="name">Nombre:</label><br>
@@ -72,12 +77,15 @@
                         <input type="email" id="email" name="_email" required><br>
                         
     
-                        <label for="phone">Teléfono:</label><br>
-                        <input type="text" id="tel" name="_tel" required><br>
+                        <label for="asunto">Asunto:</label><br>
+                        <input type="text" id="asunto" name="_asunto"><br>
                         
     
                         <label for="message">Message</label><br>
-                        <input type="textarea" id="mensaje" name="_mensaje"><br>
+
+                        <textarea for="message" id="mensaje" name="_mensaje" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea><br>
+                        
+                  
                         
     
                         <button type="submit">Enviar</button>
@@ -94,35 +102,35 @@
 
     <!-- PIE DE PÁGINA -->
     <footer>
-        <div class="logoFooter">
-          <img src="img/logo-zpe-footer.png" alt="Logo" />
-        </div>
-  
-        <div class="rrss">
+      <div class="logoFooter">
+        <img src="img/logo-zpe-footer.png" alt="Logo" />
+      </div>
+
+      <div class="rrss">
           <ul>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-tiktok"></i>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
           </ul>
         </div>
-  
-        <div class="navFooter">
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="asociacion.html">La Asociación</a></li>
-            <li><a href="noticias.html">Noticias</a></li>
-            <li><a href="eventos.html">Eventos</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </div>
-        <div class="copyright">
-          <p>
-            ©2024 Asociación de Pádel de Amorebieta. Todos los derechos
-            reservados.
-          </p>
-        </div>
-      </footer>
+
+      <div class="navFooter">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="asociacion.html">La Asociación</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>
+          ©2024 Asociación de Pádel de Amorebieta. Todos los derechos
+          reservados.
+        </p>
+      </div>
+    </footer>
     
 </body>
 </html>
