@@ -118,6 +118,21 @@ article {
 
 @media (max-width:960px) {
     .headerEventos {min-height: 10rem;}
+    section {width: 90%;}
+    section div {width: 90%;
+    padding-right: 2rem;
+    padding-left: 2rem;}
+    h2 {display: flex;
+    justify-content: center;
+    margin-top: 1rem;}
+
+}
+
+
+/*  Codigo pagina en smartphone   */    
+
+@media (max-width:480px) { 
+    .headerEventos {min-height: 10rem;}
     section {width: 100%;}
     section div {width: 100%;}
     h2 {display: flex;
@@ -136,12 +151,6 @@ article {
     tr:last-of-type td:first-of-type {border-bottom-left-radius: 0;}
               
     tr:last-of-type td:last-of-type {border-bottom-right-radius: 0;}
-}
-
-
-/*  Codigo pagina en smartphone   */    
-
-@media (max-width:480px) { 
     th {font-size: 1.5rem;}
     }
 
