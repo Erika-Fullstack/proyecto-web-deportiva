@@ -173,7 +173,8 @@ iframe {
     .divContacto {width: 100%;}
     .divContacto2 {width: 100%;
     justify-content: center;
-    padding-left: 0px;}
+    padding-left: 0px;
+    padding-right: 0px;}
     article { border-radius: 0;
         box-shadow: none}
     h2 {display: flex;
