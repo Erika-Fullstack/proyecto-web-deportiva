@@ -1,8 +1,11 @@
 section {display: flex;
         flex-wrap: wrap;
-        justify-content: center;}
+        justify-content: center;
+        /* border: 2px solid blue; */
+}
 
-section div {width: 80%;
+section div {
+    width: 80%;
     display: flex;
     justify-content: center;
     /* border: 2px solid yellowgreen; */
@@ -12,7 +15,8 @@ h2 {width: 100%;
     justify-self: center;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    /* border: 1px solid blueviolet} */}
+    /* border: 1px solid blueviolet */
+}
 
 h3 {padding-bottom: 2rem;
     text-align: center;}
@@ -65,11 +69,10 @@ tr:last-of-type td:last-of-type {border-bottom-right-radius: 1rem;}
 table tr:hover td {background-color: #ddd;
                     color: #081526;}
 
-.titulo {width: 100%; text-align: center; margin: 2rem;}
+.titulo {width: 100%; 
+        text-align: center;     
+        margin: 2rem;}
 
-.texto {margin-left: 10%;
-        margin-right: 10%;
-        }
 
 article {
     margin-bottom: 5%;
@@ -79,10 +82,9 @@ article {
     padding-bottom: 5%;
     background-color: white;
     border-radius: 1rem;
-    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);}
+    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+}
 
-
-.margen {padding-left: 20%;}
 
 .headerEventos {
     min-height: 25rem;
@@ -112,35 +114,21 @@ article {
 
 /******************* MEDIA QUERIES ******************/
 
-@media screen and (min-width:768px)  {
-    .texto {width: 100%;}
-    body {background-color: #618C03;}}
+/*    Codigo pag en tablet       */
 
-    
+@media (max-width:960px) {
+    .headerEventos {min-height: 10rem;}
+    section {width: 100%;}
+    section div {width: 100%;}
+    h2 {display: flex;
+    justify-content: center;}
 }
 
-@media screen and (min-width: 320px)  { 
-    .texto {width: 100%;} 
-    background-color: #618C03;
-}
 
-@media screen and (max-width:900px)  {
-    nav ul {flex-direction: column;}
-    header {display: none;}
-    main {justify-content: space-between;}
-    main img {width: 45%;}
-    body {background-color: aqua;}
+/*  Codigo pagina en smartphone   */    
 
-    nav {position: static;}
-    body {padding-top: 0;}
+@media (max-width:480px) { 
+    th {font-size: 1.5rem;}
+    }
 
 
-}
-
-/*  Codigo pagina en smartphone   */
-
-@media only screen and (max-width: 602px) {
-    main {justify-content: center;}
-    main img {width: 45%;}
-    body {background-color: blue;}
-  }
