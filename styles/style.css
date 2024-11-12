@@ -239,7 +239,12 @@ section {
     text-decoration: none;
     font-size: xx-large;
 }
-.rrss a:visited {color: #7B8DA6;}
+.rrss a {
+    color: #7B8DA6;
+}
+.rrss a:visited {
+    color: #7B8DA6;
+}
 
 /****************CLASES COMBINADAS *****************/
 .navPaginas li {
