@@ -26,32 +26,32 @@ a:visited {color: #7B8DA6;}
     align-items: center;
     flex-wrap: wrap;
     width: 80%;
-    padding-left: 2rem;
+    padding-left: 10rem;
     min-height: 15rem;
     border: 3px green solid;}
 
-.ultimasNoticias h2 {
+.ultimasNoticias h2 { 
     width: 100%;
 }
 
 /* Grid */
 
 .grid-container {
-    display: flex; 
    margin: auto;
-    padding: 1rem;
     flex-wrap: wrap;
-    max-width: 20rem;
-    max-height: 10%;
+    max-width: 50rem;
+    max-height: 20rem;
     color: #081526;
-    background-color: #B3D92B;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    
     
 }
 
 .grid-item {
     width: 100%; 
     color: #081526;
-background-color: #B3D92B;}
+background-color: }
 
 .grid-item img {
     width: 100%; 
