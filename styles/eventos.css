@@ -112,6 +112,36 @@ article {
     text-decoration: none;
 }
 
+#menu {display: none;}
+label {display: none;}
+
+.burguer {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #081526;
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+
+  .divNavegacionSP {
+    position:absolute;
+     top: 8rem;
+     left: -50rem;
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: white;
+
+}
+
+
 /******************* MEDIA QUERIES ******************/
 
 /*    Codigo pag en tablet       */
@@ -154,6 +184,28 @@ article {
               
     tr:last-of-type td:last-of-type {border-bottom-right-radius: 0;}
     th {font-size: 1.5rem;}
+
+    label {display: block;
+        position:fixed;
+        top: 0rem;
+        right:0rem }
+    #menu {display: none;
+            position:fixed;
+            top: 0rem;
+            right:0rem }
+
+    nav ul li {display: flex;
+            flex-direction: column;}
+
+    .divNavegacion ul{
+        display: none;
+      }
+    
+    #menu:checked  ~ .divNavegacionSP {translate: 50rem 0px;
+      }
+
+
+
     }
 
 
