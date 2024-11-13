@@ -10,6 +10,9 @@
 .info {
     display: flex;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row; /* Initial layout: row */
+    margin-top: 2rem;
 }
 
 .titulo {
@@ -76,3 +79,31 @@ button:hover{
     text-decoration: none;
     font-size: xx-large;
 } */
+
+/*    Codigo pag en tablet   */
+
+@media (max-width:960px) {
+    .texto {width: 100%;}
+    main {background-color: white;}
+    .info {flex-direction: column;
+        width: 100%;
+    }
+    .slide {
+        width: 100%;
+        margin-left: 1.5rem;
+    }
+    .historia {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+/*  Codigo pagina en smartphone   */
+
+@media (max-width:480px) { 
+    .texto {width: 100%;} 
+    main {background-color: white;}
+    .info {flex-direction: column;
+    width: 100%;}
+}
