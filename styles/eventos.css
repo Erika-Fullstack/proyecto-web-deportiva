@@ -112,32 +112,44 @@ article {
     text-decoration: none;
 }
 
-#menu {display: none;}
-label {display: none;}
+#menu {display: none;
+    position:fixed;
+    top: 0rem;
+    right:0rem }
+label {display: none;
+    position:fixed;
+        top: 0rem;
+        right:0rem }
 
 .burguer {
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #081526;
     border-radius: 5px;
-    width: 2rem;
-    height: 2rem;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
     line-height: 2rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
     user-select: none;
   }
 
   .divNavegacionSP {
-    position:absolute;
-     top: 8rem;
-     left: -50rem;
-     width: 100%;
+    position: fixed;
+    top: 0rem;
+    left: -50rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     align-items: center;
-    background-color: white;
+    background-color: #618C03;
+    transition: 500ms;
+    transition-delay: 500ms;
+    transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
 
 }
 
@@ -188,14 +200,41 @@ label {display: none;}
     label {display: block;
         position:fixed;
         top: 0rem;
-        right:0rem }
+        right:0rem;
+        z-index: 100; }
+
     #menu {display: none;
             position:fixed;
             top: 0rem;
-            right:0rem }
+            right:0rem;
+            z-index: 100; }
 
-    nav ul li {display: flex;
-            flex-direction: column;}
+    nav ul {width: 100;
+        color: white;}
+
+    nav ul li {
+        display: flex;
+            flex-direction: column;
+            min-height: 5rem;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            border-bottom: 1px solid white;
+}
+
+    nav ul {width: 100%;}
+
+    nav ul li a {color: white;}
+
+    .divLogo {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 6rem;
+            }
+
+    .divNavegacionSP {width: 100%;}
 
     .divNavegacion ul{
         display: none;
@@ -204,7 +243,10 @@ label {display: none;}
     #menu:checked  ~ .divNavegacionSP {translate: 50rem 0px;
       }
 
+    #menu:checked  ~ .burguer {background-color: #618C03;}
 
+
+    nav ul li:active li {background-color: #081526;}
 
     }
 
