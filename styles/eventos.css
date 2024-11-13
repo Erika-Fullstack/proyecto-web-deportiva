@@ -126,6 +126,7 @@ label {display: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #081526;
     border: 1px solid #081526;
     border-radius: 5px;
     background-color: white;
@@ -173,7 +174,7 @@ label {display: none;
 
 /*  Codigo pagina en smartphone   */    
 
-@media (max-width:480px) { 
+@media (max-width:600px) { 
     .headerEventos {min-height: 10rem;}
     section {width: 100%;}
     section div {width: 100%;
@@ -209,7 +210,7 @@ label {display: none;
             right:0rem;
             z-index: 100; }
 
-    nav ul {width: 100;
+    nav ul {width: 100%;
         color: white;}
 
     nav ul li {
@@ -222,16 +223,16 @@ label {display: none;
             border-bottom: 1px solid white;
 }
 
-    nav ul {width: 100%;}
 
     nav ul li a {color: white;}
 
     .divLogo {
                 width: 100%;
                 display: flex;
-                justify-content: center;
+                justify-content: left;
                 align-items: center;
-                min-height: 6rem;
+                padding-left: 1rem;
+
             }
 
     .divNavegacionSP {width: 100%;}
@@ -243,10 +244,18 @@ label {display: none;
     #menu:checked  ~ .divNavegacionSP {translate: 50rem 0px;
       }
 
-    #menu:checked  ~ .burguer {background-color: #618C03;}
+    #menu:checked ~ label .burguer {background-color: #618C03;
+        color: white;}
+
+    #menu:checked ~ label .burguer {
+            background-color: #618C03;
+            color: white;
+            border:none;
+        }
 
 
-    nav ul li:active li {background-color: #081526;}
+    .divNavegacionSP ul li:active {background-color: #B3D92B;
+    }
 
     }
 
