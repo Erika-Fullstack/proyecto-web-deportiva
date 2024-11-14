@@ -112,7 +112,7 @@ article {
     text-decoration: none;
 }
 
-#menu {display: none;
+/* #menu {display: none;
     position:fixed;
     top: 0rem;
     right:0rem }
@@ -152,7 +152,7 @@ label {display: none;
     transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 
-}
+} */
 
 
 /******************* MEDIA QUERIES ******************/
@@ -202,7 +202,7 @@ label {display: none;
     tr:last-of-type td:last-of-type {border-bottom-right-radius: 0;}
     th {font-size: 1.5rem;}
 
-    label {display: block;
+    /* label {display: block;
         position:fixed;
         top: 0rem;
         right:0rem;
@@ -297,7 +297,7 @@ label {display: none;
             align-items: center;
             align-content: center;}
 
-    .rrss ul li {justify-content: center;}
+    .rrss ul li {justify-content: center;} */
 
     }
 
