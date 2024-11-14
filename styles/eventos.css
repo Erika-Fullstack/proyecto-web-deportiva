@@ -163,11 +163,15 @@ label {display: none;
     .headerEventos {min-height: 10rem;}
     section {width: 90%;}
     section div {width: 90%;
-    padding-right: 2rem;
-    padding-left: 2rem;}
+        padding-right: 2rem;
+        padding-left: 2rem;}
     h2 {display: flex;
-    justify-content: center;
-    margin-top: 1rem;}
+        justify-content: center;
+        margin-top: 1rem;}
+    footer {justify-content: space-between;
+            }
+    .logoFooter {padding-left: 2rem;}
+    .navFooter {padding-right: 2rem;}
 
 }
 
