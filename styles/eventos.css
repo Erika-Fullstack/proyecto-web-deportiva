@@ -219,11 +219,11 @@ label {display: none;
 
     nav ul li {
         display: flex;
-            flex-direction: column;
-            min-height: 5rem;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
+        flex-direction: column;
+        min-height: 5rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
             border-bottom: 1px solid white;
 }
 
@@ -260,6 +260,44 @@ label {display: none;
 
     .divNavegacionSP ul li:active {background-color: #B3D92B;
     }
+
+    footer {flex-direction: column;
+        align-items: center;}
+    
+    .logoFooter {width: 100%;
+        padding-left: 0;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        min-height: 0;
+        }
+    .rrss {width: 100%;
+        min-height: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 2rem;}
+
+    .navFooter {
+        justify-content: space-around;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bolder;
+        width: 100%;
+        padding-right: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        min-height: 0;}
+
+    .navFooter ul li {padding-bottom: 0.5rem;
+    }
+
+    .rrss ul {width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+            align-items: center;
+            align-content: center;}
+
+    .rrss ul li {justify-content: center;}
 
     }
 
