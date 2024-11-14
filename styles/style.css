@@ -26,10 +26,25 @@ nav {
     background-color: white;
     min-height: 5rem;
 }
+.langSeleccion ul li {
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
 
 nav ul li {
+    display: flex;
+    justify-content: center;
+    min-height: 10rem;
     display: inline;
     font-weight: bold;
+}
+
+.langSeleccion a:hover {
+    color: #B3D92B;
+    text-decoration: underline;
+    transition: 0.5s;
+
 }
 
 a {
@@ -44,17 +59,18 @@ nav a {
     color: #081526;
 }
 
-nav a:hover {
-    color: #B3D92B;
+/* nav a:hover {
+    color: white;
     transition: 0.4s;
 
-}
+} */
 
 h1 {
     color: #B3D92B;
     font-size: 4rem;
     font-family: PadelBold;
     text-align: center;
+    text-shadow: 2px 2px 1px #081526;
 }
 
 h2 {
@@ -131,15 +147,18 @@ section {
 
 
 /*************** CLASES NOMBRADAS ***********************/
-.clearSlide {
-    position: absolute;
+header.clearSlide {
+    position: relative;
     display: flex;
+    width: 100%;
     align-items: center;
+    overflow: hidden;
     /* border: 4px red solid; */
 }
 
 .divLogo {
-    width: 45%;
+    /* border: purple solid 2px; */
+    width: 20%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -148,13 +167,15 @@ section {
 }
 
 .divNavegacion {
-    width: 45%;
+    /* border: royalblue solid 2px; */
+    width: 65%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: space-around;
     align-items: center;
     min-height: 5rem;
-    padding-bottom: 0.4rem;
+    /* padding-bottom: 0.4rem; */
 }
 
 .langSeleccion {
@@ -163,6 +184,8 @@ section {
     display: flex;
     flex-wrap: nowrap;
     justify-content: end;
+    /* border: blue solid 1px; */
+    align-items: start;
 }
 
 .navPaginas {
@@ -170,6 +193,9 @@ section {
     display: flex;
     flex-wrap: nowrap;
     justify-content: end;
+    align-items: center;
+    /* border: yellow 2px solid; */
+    min-height: 2rem;
 }
 
 .headerBienvenida {
@@ -212,8 +238,6 @@ section {
 }
 
 .seccionInicio {
-    /* border: #B3D92B solid 5px; */
-    margin-top: 40rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
@@ -267,10 +291,10 @@ section {
     color: #7B8DA6;
 }
 
-.navFooter ul li a:hover {
-    color: #B3D92B;
+/* .navFooter ul li a:hover {
+    color: white;
     transition: 0.5s;
-}
+} */
 
 .copyright {
     width: 90%;
@@ -297,9 +321,19 @@ section {
 }
 
 .navPaginas li {
+    text-justify: center;
+    /* border: green 1px solid; */
     list-style: none;
-    padding-right: 1rem;
-    padding-left: 2rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.4rem;
+}
+.navPaginas li:hover {
+    background-color: #B3D92B;
+    color: white;
+    transition: 0.5s;
 }
 
 .langSeleccion li {
