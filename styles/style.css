@@ -364,3 +364,43 @@ header.clearSlide {
 .logoFooter img {
         height: 9rem;
 }
+
+.s2 {
+    background-color: #b3d92b;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 5rem;
+
+}
+
+.llamada {
+    background-color: #b3d92b;
+    padding: 2px;
+    text-align: center;
+}
+button {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3rem;
+    border: 0.16rem solid #081526;
+    font-size: 2rem;
+    background-color: transparent;
+    transition: 0.5s;
+}
+button a {
+    color:#081526;
+
+}
+button:hover {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 0.16rem solid #081526;
+    font-size: 2rem;
+    background-color: #f5f8fc;
+    transition: 0.5s;
+}
+

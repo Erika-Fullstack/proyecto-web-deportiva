@@ -97,20 +97,29 @@
     text-align: center;
 }
 
-button{
-    padding: 5px;
-    margin: 5px 3px;
+button {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     outline: none;
     cursor: pointer;
-    border-radius: 5px;
-    border: 2px solid #618c03;
-    color: #081526;
+    border-radius: 3rem;
+    border: 0.16rem solid #081526;
     font-size: 2rem;
     background-color: transparent;
+    transition: 0.5s;
 }
+button a {
+    color:#081526;
 
-button:hover{
-    cursor: pointer;
+}
+button:hover {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 0.16rem solid #081526;
+    font-size: 2rem;
+    background-color: #f5f8fc;
+    transition: 0.5s;
 }
 
 /* .rrss {
