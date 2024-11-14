@@ -403,6 +403,22 @@ button:hover {
     background-color: #f5f8fc;
     transition: 0.5s;
 }
+.tarjetaAccion {
+    background-color: #b3d92b;
+    border: 2px red solid;
+    padding: 2px;
+    text-align: center;
+}
+.bloqueTarjetas {
+    background-color: #b3d92b;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 6rem;
+    border: red solid 2px;
+
+}
+
 
 
 
