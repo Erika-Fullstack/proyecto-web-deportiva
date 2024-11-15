@@ -9,10 +9,9 @@
 
 .info {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: row; /* Initial layout: row */
-    margin-top: 2rem;
 }
 
 .titulo {
@@ -163,10 +162,6 @@ button:hover {
         transition: all 400ms ease;
     }
 
-    .card:hover {
-        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-        transform: translateY(-3%);
-    }
 }
 
 /*  Codigo pagina en smartphone   */
@@ -185,6 +180,18 @@ button:hover {
     }
 
     .card {
+        height: auto;
+    }
+}
+
+
+/*  Codigo pagina en tablet   */
+@media (max-width:960px) {
+    .card {
+        height: auto;
+    }
+
+    .card img {
         height: auto;
     }
 }
