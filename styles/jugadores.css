@@ -1,0 +1,77 @@
+.headerJugadores {
+  min-height: 10rem;
+  background-image: url(../img/jugadores/headerFondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.contenedor {
+  background-color: #B3D92B;;
+}
+
+
+  /* Grid */
+  .jugadores-grid {
+      display: grid;
+      gap: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+   
+  
+   
+   /* Estilo tarjetas */
+   .card {
+    background-color: #f5f8fc;
+     border-radius: 8px;
+     padding: 2rem;
+     text-align: center;
+     margin: auto 2rem;
+   }
+   .card h3, p {
+    text-align: center;
+    color: #081526;
+   }
+
+   .card p {
+    font-weight:bold;
+   }
+
+   .card img {
+     width: 100%;
+     height: auto;
+     border-radius: 0.8rem;
+     font-weight: bold;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+   }
+   /* animacion */
+   .card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   }
+
+   /* Media Queries */
+   @media (min-width: 768px) {
+    .headerJugadores {
+      min-height: 10rem;
+    }
+    }
+    @media (min-width: 1024px) {
+        .headerJugadores {
+          min-height: 40rem;
+        }
+    }
+
+    @media (min-width: 768px) {
+      .jugadores-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (min-width: 1024px ) {
+          .jugadores-grid {
+            grid-template-columns: repeat(3, 1fr);
+          }
+    }
