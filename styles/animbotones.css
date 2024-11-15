@@ -2,13 +2,29 @@
     animation: elevate 3s infinite ease-in-out;
 } */
 
-.botonAnim-1, .botonAnim-1 div h5 {
+.botonAnim-1 {
     animation: elevate1 30s infinite ease;
 
 }
 
-.botonAnim-2, .botonAnim-2 div h5 {
+.botonAnim-2 {
     animation: elevate2 30s infinite ease;
+
+}
+.botonAnim-3 {
+    animation: elevate3 30s infinite ease;
+
+}
+.botonAnim-4 {
+    animation: elevate4 30s infinite ease;
+
+}
+.botonAnim-5 {
+    animation: elevate5 30s infinite ease;
+
+}
+.botonAnim-6 {
+    animation: elevate6 30s infinite ease;
 
 }
 
@@ -17,15 +33,159 @@
 
 
 @keyframes elevate1 {
-    0% {bottom: 0rem;}
-    0.5% {bottom: 1rem;}
+    0% {
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+    }
 
-    9.5%{bottom: 1rem;}
-    10%{bottom: 0rem;} 
+    0.6% {
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+    }
+
+    16%{
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+    }
+
+    16.66%{
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+    } 
 }
 
 @keyframes elevate2 {
+    16.6% {
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        }
 
+    17.26% {
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    32.72%{
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    33.32%{
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        } 
+}
+
+@keyframes elevate3 {
+    33.32% {
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        }
+
+    33.92% {
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    49.4%{
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    50%{
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        } 
+}
+
+@keyframes elevate4 {
+    50% {
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        }
+
+    50.6% {
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    66%{
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    66.64%{
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        } 
+}
+
+@keyframes elevate5 {
+    66.64%{
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        }
+
+    67.24% {
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    82.7% {
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    83.3% {
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        } 
+}
+
+@keyframes elevate6 {
+    83.3% {
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        }
+
+    83.9% {
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    99.4% {
+        bottom: 1rem;
+        border: white 0.2rem solid;
+        box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
+        }
+
+    100% {
+        bottom: 0rem;
+        border: 0.16rem solid #081526;
+        box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
+        } 
 }
 
 
