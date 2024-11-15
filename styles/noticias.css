@@ -8,7 +8,7 @@
     text-decoration: none;
     font-size: xx-large;
 }
-a:visited {color: #7B8DA6;}
+/* a:visited {color: #7B8DA6;} */
 
 .headerNoticias{
     min-height: 25rem;
@@ -42,7 +42,7 @@ a:visited {color: #7B8DA6;}
    
 }             
 
-
+/* 
     .divLogo {
         width: 45%;
         display: flex;
@@ -73,7 +73,7 @@ a:visited {color: #7B8DA6;}
         flex-wrap: wrap;
         justify-content: end;
     }
-   
+    */
     
     .seccionInicio {
         /* border: #B3D92B solid 5px; */
