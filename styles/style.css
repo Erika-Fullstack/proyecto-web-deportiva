@@ -412,6 +412,7 @@ button:hover {
     /* border: blue solid 2px; */
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 .tarjetasAccion {
@@ -421,18 +422,55 @@ button:hover {
     justify-content: space-evenly;
 }
 
-.tarjAnimada{
-    background-color: #f5f8fc;
+.tarjAnimada {
+    position: relative;
+    bottom: 0;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background-color: #B3D92B;
     min-height: 8rem;
-    border:#081526 0.16rem solid;
+    /* border:#081526 0.16rem solid; */
+    box-shadow: 0.3rem 0.2rem 0.4rem rgba(20, 20, 20, 0.3);
     border-radius: 0.5rem;
+    border: #081526 0.15rem solid;
     width: 15.5%;
+    transition: 0.35s;
+}
+.tarjAnimada:hover {
+    background-color:#f5f8fc ;
+    bottom: 1rem;
+    border: #f5f8fc 0.2rem solid;
+    box-shadow: 0.3rem 2rem 1rem rgba(20, 20, 20, 0.3);
 
 }
+
+.tarjAnimada div {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* border: red solid 2px; */
+    height: 100%;
+    align-items: center;
+}
+.tarjAnimada img {
+    width: 70%;
+}
+.tarjAnimada h5 {
+    text-align: center;
+    font-size: 1.2rem;
+    display: block;
+
+}
+
+.divLogo2 {
+    display:none
+}
+
 .desplegable {
     position: relative;
-    z-index: 200;
 }
+
 .dropdown ul {
     position: relative;
     display: none;
@@ -440,19 +478,43 @@ button:hover {
 
 .dropdown li ul { 
     position: absolute;
-    top: 2rem;
+    top: 1rem;
     left: 0;
-    background-color: white;
-    height: 2rem;
+    /* background-color: white;
+    height: 2rem;  */
     padding: 1rem;
-
 }
+
 .dropdown li:hover ul {
     display: block;
-    background-color: #B3D92B;
-    color: white;
+     background-color: #B3D92B; 
+     color: white; 
     transition: 0.5s;
 }
+
+.dropdown li:hover ul li a {
+    display: block;
+    background-color: white;
+    color:#081526;
+    transition: 0.5s;
+}
+
+.liSubmenu {
+    height: 2rem;
+}
+
+.dropdown ul li a{
+    text-justify: center;
+    /* border: green 1px solid; */
+    list-style: none;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+
 #menu {display: none;
     position:fixed;
     top: 0rem;
@@ -504,6 +566,29 @@ label {display: none;
 /*    Codigo pag en tablet       */
 
 @media (max-width:960px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    .divLogo {
+            min-height: 4rem;
+            padding-left: 1rem;
+        }
+
+    .langSeleccion ul {
+        height: 2rem;
+        padding-right: 0.5rem;
+    }
+
+    .navPaginas ul {
+        height: 2rem;
+        padding-right: 0.5rem;
+    }
+
+    .navPaginas li {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
     footer {justify-content: space-between;
             }
     .logoFooter {padding-left: 2rem;}
@@ -514,7 +599,7 @@ label {display: none;
 
 /*  Codigo pagina en smartphone   */    
 
-@media (max-width:600px) { 
+@media (max-width:768px) { 
 
     label {display: block;
         position:fixed;
@@ -545,6 +630,10 @@ label {display: none;
     nav ul li a {color: white;}
 
     .divLogo {
+        display: none;
+    }
+
+    .divLogo2 {
                 width: 100%;
                 display: flex;
                 justify-content: left;
