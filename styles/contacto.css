@@ -17,7 +17,7 @@
 }
 .imgContacto {
    
-    /* border: red solid 3px; */
+    border: red solid 3px;
     width: 95%;
 
 }
@@ -138,6 +138,8 @@ iframe {
 }
 
 
+
+
 /******************* MEDIA QUERIES ******************/
 
 /*    Codigo pag en tablet       */
@@ -179,11 +181,26 @@ iframe {
     padding-left: 0px;
     padding-right: 0px;}
     article { border-radius: 0;
-        box-shadow: none}
+        box-shadow: none;
+        padding-left: 0;
+        padding-right: 0;}
+    form {
+        width: 98%;
+        padding-right: 0px;
+    }
+
+    textarea {
+        padding-left: 0px;
+    }
     h2 {display: flex;
     justify-content: center;
     margin-top: 1rem;}
     p {margin-left: 1.5rem;
         margin-right: 1.5rem;}
     iframe {border-radius: 0;}
+
+    main {
+        width:100%
+    }
+
  }
