@@ -166,7 +166,7 @@ iframe {
     
 /*  Codigo pagina en smartphone   */    
 
-@media (max-width:480px) {
+@media (max-width:768px) {
     .headerContacto {min-height: 10rem;}
     section {width: 100%;
         display:flex;

@@ -1,4 +1,4 @@
-.rrss {
+/* .rrss {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
     color: #7B8DA6;
     text-decoration: none;
     font-size: xx-large;
-}
+} */
 /* a:visited {color: #7B8DA6;} */
 
 .headerNoticias{
@@ -96,10 +96,10 @@
     /*    Codigo pagina en tablet       */
     @media (max-width: 960px) {
         .texto {width: 100%;}
-        .rrss {
+        /* .rrss {
             width: 30%;  
             font-size: large;  
-        }
+        } */
     
         .headerNoticias {
             min-height: 20rem;  
@@ -120,12 +120,12 @@
 
 
     /* Codigo pagina en smartphone  */
-    @media (max-width: 480px) { 
+    @media (max-width: 768px) { 
         .texto {width: 100%;} 
-        .rrss {
+        /* .rrss {
             width: 50%; 
             font-size: medium;  
-        }
+        } */
     
         .headerNoticias {
             min-height: 15rem; 
