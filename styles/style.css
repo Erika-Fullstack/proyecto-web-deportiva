@@ -403,22 +403,56 @@ button:hover {
     background-color: #f5f8fc;
     transition: 0.5s;
 }
-.tarjetaAccion {
-    background-color: #b3d92b;
-    border: 2px red solid;
-    padding: 2px;
-    text-align: center;
-}
 .bloqueTarjetas {
     background-color: #b3d92b;
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    min-height: 6rem;
-    border: blue solid 2px;
+    min-height: 5rem;
+    /* border: blue solid 2px; */
+    display: flex;
+    justify-content: center;
 
 }
+.tarjetasAccion {
+    /* border: 5px red solid; */
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.tarjAnimada{
+    background-color: #f5f8fc;
+    min-height: 8rem;
+    border:#081526 0.16rem solid;
+    border-radius: 0.5rem;
+    width: 15.5%;
+
+}
+.desplegable {
+    position: relative;
+    z-index: 200;
+}
+.dropdown ul {
+    position: relative;
+    display: none;
+}
+
+.dropdown li ul { 
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    background-color: white;
+    height: 2rem;
+    padding: 1rem;
+
+}
+.dropdown li:hover ul {
+    display: block;
+    background-color: #B3D92B;
+    color: white;
+    transition: 0.5s;
+}
 #menu {display: none;
     position:fixed;
     top: 0rem;

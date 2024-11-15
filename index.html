@@ -21,43 +21,48 @@
     />
 </head>
 <body>
-    <nav>
-        <!-- LOGO DEL SITIO -->
-        <div class="divLogo">
-            <a href="index.html"><img src="img/logo-zpe.png" alt="Logo"></a>
-        </div>
-        <!-- NAVEGACION -->
-        <div class="divNavegacion">
-            <div class="langSeleccion">
-                <ul>
-                    <li><a href="#">Euskara</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
-            </div>
-            <div class="navPaginas">
-                <ul>
-                    <li><a href="eventos.html">EVENTOS</a></li>
-                    <li><a href="noticias.html">NOTICIAS</a></li>
-                    <li><a href="asociacion.html">LA ASOCIACIÓN</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
-                </ul>
-            </div>
-        </div>
-        <input type="checkbox" id="menu">
-        <label for="menu"> 
-            <span class="burguer"> 
-                <i class="fa-solid fa-bars"></i> 
-            </span>
-        </label>
-        <div class="divNavegacionSP">
+  <nav>
+    <!-- LOGO DEL SITIO -->
+    <div class="divLogo">
+        <a href="index.html"><img src="img/logo-zpe.png" alt="Logo"></a>
+    </div>
+    <!-- NAVEGACION -->
+    <div class="divNavegacion">
+        <div class="langSeleccion">
             <ul>
+                <li><a href="#">Euskara</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+        </div>
+        <div class="navPaginas">
+            <ul  class="dropdown">
                 <li><a href="eventos.html">EVENTOS</a></li>
                 <li><a href="noticias.html">NOTICIAS</a></li>
-                <li><a href="asociacion.html">LA ASOCIACIÓN</a>
+                <li class="desplegable"><a href="asociacion.html">LA ASOCIACIÓN</a>
+                    <ul>
+                        <li><a href="#">Jugadores</a></li>
+                    </ul>
+                </li>
                 <li><a href="contacto.html">CONTACTO</a></li>
-            </ul>     
+            </ul>
         </div>
-    </nav>
+    </div>
+    <input type="checkbox" id="menu">
+    <label for="menu"> 
+        <span class="burguer"> 
+            <i class="fa-solid fa-bars"></i> 
+        </span>
+    </label>
+    <div class="divNavegacionSP">
+        <ul>
+            <li><a href="eventos.html">EVENTOS</a></li>
+            <li><a href="noticias.html">NOTICIAS</a></li>
+            <li><a href="asociacion.html">LA ASOCIACIÓN</a>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </div>
+
+</nav>
 
     <!-- HEADER -->
     <header class="clearSlide">
@@ -78,6 +83,15 @@
     </header>
     <section class="bloqueTarjetas">
       <div class="tarjetasAccion">
+        <div class="tarjAnimada">
+        <div></div>
+        <div><p>Reserva tus clases particulares</p></div>
+        </div>
+        <div class="tarjAnimada"></div>
+        <div class="tarjAnimada"></div>
+        <div class="tarjAnimada"></div>
+        <div class="tarjAnimada"></div>
+        <div class="tarjAnimada"></div>
 
       </div>
     </section>
