@@ -54,6 +54,7 @@
     min-height: 25rem;
     border-radius: 1rem;
     place-self: center;
+    background-position: center;
 }
 #noticia2 {
     width: 100%;
@@ -63,6 +64,7 @@
     min-height: 25rem;
     border-radius: 1rem;
     place-self: center;
+    background-position: center;
 }
 #noticia3 {
     width: 100%;
@@ -72,6 +74,7 @@
     min-height: 25rem;
     border-radius: 1rem;
     place-self: center;
+    background-position: center;
 }
 #noticia4 {
     width: 100%;
@@ -81,6 +84,7 @@
     min-height: 25rem;
     border-radius: 1rem;
     place-self: center;
+    background-position: center;
 }
 h4 a {
     font-family: PadelBold;
@@ -227,6 +231,7 @@ article {
             padding-left: 0;
             padding-right: 0;
         }
+
     
     }
 

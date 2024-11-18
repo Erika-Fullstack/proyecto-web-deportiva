@@ -533,7 +533,7 @@ header.clearSlide {
     justify-content: center;
     align-items: center;
     color: #081526;
-    border: 1px solid #081526;
+    /* border: 1px solid #081526; */
     border-radius: 5px;
     background-color: white;
     width: 3rem;
