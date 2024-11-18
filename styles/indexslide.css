@@ -16,18 +16,23 @@
 }
 .slide-1 {
     background-image: url(/img/slides_index/slide1.jpg);
+    background-position: center;
 }
 .slide-2 {
     background-image: url(/img/slides_index/slide2.jpg);
+    background-position: center;
 }
 .slide-3 {
     background-image: url(/img/slides_index/slide3.jpg);
+    background-position: center;
 }
 .slide-4 {
     background-image: url(/img/slides_index/slide4.jpg);
+    background-position: center;
 }
 .slide-5 {
     background-image: url(/img/slides_index/slide5.jpg);
+    background-position: center;
    
 }
 .slides img {
