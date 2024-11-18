@@ -474,14 +474,17 @@ button:hover {
     position: relative;
 }
 
+
 .dropdown li ul {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 0px;
     display: none; 
-    width: 4rem;
-    /* background-color: white;  */
-    padding: 1rem;
+    width: 90%;
+    text-align: center;
+    background-color:#B3D92B; 
+    padding: 0.5rem;
+    border-radius: 0.4rem;
     z-index: 10;
 }
 
@@ -489,19 +492,27 @@ button:hover {
     display: block;
 }
 
+.liSubmenu ul {
+    position: absolute;
+    width: 90%;
+    background-color:#B3D92B; 
+    /* padding: 0.5rem 2rem; */
+    border-radius: 0.4rem;
+}
+
 .dropdown li ul li a {
     width: 100%;
     box-sizing: border-box;
     color: #081526; 
-    background-color: white; /* Fondo inicial */
-    padding: 0.5rem 1.2rem;
-    border-radius: 0.4rem;
+    /* background-color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 0.4rem;  */
     transition: 0.5s;
 }
 
-.dropdown li ul li a:hover {
+.dropdown li ul:hover li a{
     color: white; 
-    background-color: #B3D92B; 
+    background-color: transparent; 
     transition: 0.5s;
 }
 
