@@ -449,8 +449,9 @@ header.clearSlide {
 }
 
 .tarjAnimada div {
-    width: 45%;
+    width: 50%;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     /* border: red solid 2px; */
     height: 100%;
@@ -595,6 +596,21 @@ header.clearSlide {
             }
     .logoFooter {padding-left: 2rem;}
     .navFooter {padding-right: 2rem;}
+
+    .tarjetasAccion {
+        /* border: 5px green solid; */
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .tarjAnimada {
+        
+        width: 30%;
+        height: 8rem;
+        margin-bottom: 1rem;
+        transition: 0.35s;
+    }
 
 }
 
