@@ -7,7 +7,7 @@ La página consta de 5 secciones;
 :memo: Noticias
 :tada: Eventos
 :iphone: Contacto 
-:camera_flash: Jugadores
+ Jugadores :camera_flash:
 
 En la que cada participante del grupo desarrolla su parte en un html y un css compartiendo los rasgos generales de estos respetando una serie de requisitos;
 :white_check_mark: Ser Responsive
