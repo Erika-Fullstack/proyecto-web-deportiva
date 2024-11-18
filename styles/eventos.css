@@ -103,7 +103,7 @@ article {
     position: relative;
 }
 
-.dropdown ul {
+/* .dropdown ul {
     position: relative;
     display: none;
 }
@@ -118,14 +118,14 @@ article {
     left: 0;
     /* background-color: white; */
     /* height: 2rem; */
-    padding: 1rem;
+    /* padding: 1rem;
 }
 
 .dropdown li:hover ul {
     display: block;
     /* background-color: #B3D92B; */
     /* color: white; */
-    transition: 0.5s;
+    /* transition: 0.5s;
 }
 
 .dropdown li:hover ul li a {
@@ -133,11 +133,11 @@ article {
     background-color: white;
     color:#081526;
     transition: 0.5s;
-}
+}  */
 
 .liSubmenu {
     height: 2rem;
-}
+} 
 
 /* .liSubmenu a:hover {
     background-color: #B3D92B;
@@ -145,16 +145,16 @@ article {
     transition: 0.5s;
 } */
 
-.dropdown ul li a{
+/* .dropdown ul li a{
     text-justify: center;
     /* border: green 1px solid; */
-    list-style: none;
+    /* list-style: none;
     padding-right: 1.2rem;
     padding-left: 1.2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border-radius: 0.4rem;
-}
+} */ 
 
 /* .dropdown li:hover {
     background-color: none;

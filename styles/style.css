@@ -474,47 +474,35 @@ button:hover {
     position: relative;
 }
 
-.dropdown ul {
-    position: relative;
-    display: none;
-}
-
-.dropdown li ul { 
+.dropdown li ul {
     position: absolute;
-    top: 1rem;
+    top: 100%;
     left: 0;
-    /* background-color: white;
-    height: 2rem;  */
+    display: none; 
+    width: 4rem;
+    /* background-color: white;  */
     padding: 1rem;
+    z-index: 10;
 }
 
 .dropdown li:hover ul {
     display: block;
-     background-color: #B3D92B; 
-     color: white; 
-    transition: 0.5s;
 }
 
-.dropdown li:hover ul li a {
-    display: block;
-    background-color: white;
-    color:#081526;
-    transition: 0.5s;
-}
-
-.liSubmenu {
-    height: 2rem;
-}
-
-.dropdown ul li a{
-    text-justify: center;
-    /* border: green 1px solid; */
-    list-style: none;
-    padding-right: 1.2rem;
-    padding-left: 1.2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+.dropdown li ul li a {
+    width: 100%;
+    box-sizing: border-box;
+    color: #081526; 
+    background-color: white; /* Fondo inicial */
+    padding: 0.5rem 1.2rem;
     border-radius: 0.4rem;
+    transition: 0.5s;
+}
+
+.dropdown li ul li a:hover {
+    color: white; 
+    background-color: #B3D92B; 
+    transition: 0.5s;
 }
 
 
