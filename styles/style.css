@@ -379,7 +379,7 @@ header.clearSlide {
     padding: 2px;
     text-align: center;
 }
-button {
+#boton1 {
     padding: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -391,11 +391,11 @@ button {
     background-color: transparent;
     transition: 0.5s;
 }
-button a {
+#boton1 a {
     color:#081526;
 
 }
-button:hover {
+#boton1:hover {
     padding-left: 3rem;
     padding-right: 3rem;
     border: 0.16rem solid #081526;

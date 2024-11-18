@@ -112,7 +112,7 @@ textarea:focus {
     background-color: #ebffa4;
     
 }
-button {
+#botonContacto {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -127,11 +127,13 @@ button {
     border-radius: 50px 50px 50px 50px;
     text-align: center;
     color: #B3D92B;
+    transition: 0.3s;
 }
-button:hover {
+#botonContacto:hover {
     background-color: #B3D92B;
     border: #B3D92B solid 1rem;
     color: white;
+    transition: 0.3s;
 }
 iframe {
     border-radius: 2rem;

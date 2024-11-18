@@ -24,7 +24,7 @@
 /* Grid */
 
 .grid-container {
-    border: 2px green solid;
+    /* border: 2px green solid; */
     align-items: start;
     color: #081526;
     width: 100%;
@@ -40,7 +40,7 @@
     border-radius: 1rem;
     padding-left: 10%;
     padding-right: 10%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* background-color: yellowgreen; */
     
 }
@@ -48,8 +48,32 @@
 
 #noticia1 {
     width: 100%;
-    border: red solid 2px;
+    /* border: red solid 2px; */
     background-image: url(/img/img.noticias/imagenpadel1);
+    background-size: cover;
+    min-height: 25rem;
+    border-radius: 1rem;
+}
+#noticia2 {
+    width: 100%;
+    /* border: red solid 2px; */
+    background-image: url(/img/img.noticias/imagenpadel2);
+    background-size: cover;
+    min-height: 25rem;
+    border-radius: 1rem;
+}
+#noticia3 {
+    width: 100%;
+    /* border: red solid 2px; */
+    background-image: url(/img/img.noticias/imagenpadel3);
+    background-size: cover;
+    min-height: 25rem;
+    border-radius: 1rem;
+}
+#noticia4 {
+    width: 100%;
+    /* border: red solid 2px; */
+    background-image: url(/img/img.noticias/imgnoticias4);
     background-size: cover;
     min-height: 25rem;
     border-radius: 1rem;
@@ -59,20 +83,29 @@ h4 a {
     font-size: 1.8rem;
     color: #081526;
     text-align: left;
+    transition: 0.3s;
+}
+h4 a:hover {
+    color: #B3D92B;
+}
+
+.fechaNoticia {
+    font-size: 1rem;
+    color: #B3D92B;
 }
 
 #textoNoticia1 {
     width: 100%;
-    border: green 2px solid;
+    /* border: green 2px solid; */
 }
 
 .grid-container p {
-    border: yellow 2px solid;
+    /* border: yellow 2px solid; */
     margin-top: 1rem;
 }
 article {
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     padding-top: 2.5%;
     padding-left: 3%;
     padding-right: 3%;
@@ -80,6 +113,40 @@ article {
     background-color: white;
     border-radius: 1rem;
     box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+}
+
+.botonNoticias {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    font-family: PadelBold;
+    font-size: 1.2rem;
+    background-color: white;
+    border: #B3D92B solid 0.2rem;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    color: #B3D92B;
+    transition: 0.3s;
+}
+.botonNoticias:hover {
+    background-color: #B3D92B;
+    border: #B3D92B solid 1rem;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.botonNoticias a {
+    color: #B3D92B;
+    font-family: PadelBold;
+}
+.botonNoticias a:hover {
+    color: white;
+    font-family: PadelBold;
 }
 /* 
     .divLogo {
