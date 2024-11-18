@@ -252,11 +252,17 @@ article {
         }
     
         .grid-container img {
-            width: 90%;
+            /* height: auto;
+            width: 25%; */
             padding-right: 0;
             padding-left: 0;
         
         }
+
+        #noticia1, #noticia2, #noticia3, #noticia4 {
+            min-height: 15rem;
+        }
+
         
 
         section {width: 100%;}
