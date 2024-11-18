@@ -54,7 +54,7 @@
    }
 
    /* Media Queries */
-   @media (min-width: 768px) {
+   @media (max-width: 768px) {
     .headerJugadores {
       min-height: 10rem;
     }
