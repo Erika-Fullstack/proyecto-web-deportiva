@@ -61,7 +61,7 @@
     }
     @media (min-width: 1024px) {
         .headerJugadores {
-          min-height: 40rem;
+          min-height: 25rem;
         }
     }
 
