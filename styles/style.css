@@ -408,7 +408,7 @@ button:hover {
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    min-height: 5.5rem;
+    min-height: 9rem;
     /* border: blue solid 2px; */
     display: flex;
     justify-content: center;
@@ -418,9 +418,9 @@ button:hover {
 .tarjetasAccion {
     /* border: 5px red solid; */
     width: 90%;
-    height: 10rem;
+    min-height: 9rem;
     display: flex;
-    border: red solid 2px;
+    /* border: red solid 2px; */
     justify-content: space-evenly;
 }
 
@@ -437,6 +437,7 @@ button:hover {
     border-radius: 0.5rem;
     border: #081526 0.15rem solid;
     width: 15.5%;
+    height: 8rem;
     transition: 0.35s;
 }
 .tarjAnimada:hover {

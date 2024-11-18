@@ -24,12 +24,15 @@
 /* Grid */
 
 .grid-container {
+    border: 2px green solid;
+    align-items: start;
     color: #081526;
+    width: 100%;
     display: grid; 
     grid-template-columns: repeat(2, 1fr);
-    gap: 5rem;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    gap: 2rem;
+    /* padding-bottom: 3rem; */
+    /* padding-top: 3rem; */
 }
 .grid-container img {
     width: 75%;               
@@ -37,11 +40,47 @@
     border-radius: 1rem;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: yellowgreen;
+    border: 2px solid red;
+    /* background-color: yellowgreen; */
     
-   
-}             
+}
 
+
+#noticia1 {
+    width: 100%;
+    border: red solid 2px;
+    background-image: url(/img/img.noticias/imagenpadel1);
+    background-size: cover;
+    min-height: 25rem;
+    border-radius: 1rem;
+}
+h4 a {
+    font-family: PadelBold;
+    font-size: 1.8rem;
+    color: #081526;
+    text-align: left;
+}
+
+#textoNoticia1 {
+    width: 100%;
+    border: green 2px solid;
+}
+
+.grid-container p {
+    border: yellow 2px solid;
+    margin-top: 1rem;
+}
+article {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-top: 2.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+}
 /* 
     .divLogo {
         width: 45%;
