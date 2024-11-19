@@ -5,7 +5,7 @@ section {display: flex;
 }
 
 section div {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     /* border: 2px solid yellowgreen; */
@@ -19,18 +19,25 @@ h2 {width: 100%;
 }
 
 h3 {padding-bottom: 2rem;
-    text-align: center;}
+    text-align: center;
+    width: 100%;}
 
 h4 {margin-top: 1rem;
     margin-bottom: 0.5rem;
-    font-weight: bolder;}
+    font-weight: bolder;
+    width: 70%}
 
 h5 {margin-top: 1rem;
     margin-bottom: 0.5rem;
-    font-weight: bold;}
+    font-weight: bold;
+    width: 70%;}
+
+p {
+    /* width: 60%; */
+}
 
 table {
-    width: 100%;
+    width: 70%;
     text-align: center;
     box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
     border-radius: 5%;
@@ -74,20 +81,57 @@ table tr:hover td {background-color: #ddd;
         margin: 2rem;}
 
 
-article {
-    margin-bottom: 5%;
-    padding-top: 2.5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    background-color: white;
-    border-radius: 1rem;
-    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
-}
+        article {
+            display: flex;
+            flex-direction: column; 
+            margin-bottom: 5%;
+            padding-top: 2.5%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 5%;
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+        }
+        
+        
+        .torneo,
+        .copa {
+            display: flex; 
+            flex-direction: column;
+            justify-content: space-around; 
+            align-items: center; 
+        }
+        
+        .torneo img,
+        .copa img {
+            width: 30%; 
+            height: auto; 
+            border-radius: 1rem; 
+        }
+        
+        .torneo div,
+        .copa div {
+            display: block; 
+            padding: 1rem; 
+            width: 60%;
+        }
+        
+        .copa {
+            flex-direction: row-reverse;
+            justify-content: space-between; 
+        }
+
+        .torneo {
+            flex-direction: row;
+        }
+
 
 .divLogo2 {
     display:none
 }
+
+
 
 .headerEventos {
     min-height: 25rem;
