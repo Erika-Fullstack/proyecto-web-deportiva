@@ -116,6 +116,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #f5f8fc;
     min-height: 40rem;
     width: 100%;
@@ -267,6 +268,32 @@ header.clearSlide {
     width: 80%;
     padding-left: 2rem;
     min-height: 15rem;
+}
+
+.divInicio3 {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 2rem;
+    min-height: 15rem;
+    margin-bottom: 2rem;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.columna {
+    width: 80%;
+    height: auto;
+    border: 1px solid #618C03;
+    margin: 20px;
+    padding: 1rem;
 }
 
 .logoFooter {
