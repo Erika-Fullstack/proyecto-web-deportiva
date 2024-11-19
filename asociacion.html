@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>La Asociación | Asociación de Pádel de Amorebieta</title>
-    <meta
-      name="description"
-      content="Un sueño que unió a los amantes del pádel en Amorebieta.Conoce la historia de esta comunidad deportiva y cómo marcó el antes y después en el pádel local."
-    />
-    <link rel="icon" href="img/favicon-zpe.png" type="image/x-icon">
-    <meta name="“robots”" value="“index,follow”" />
-    <meta
-      name="keywords"
-      content="padel, asociacion, asociación de padel, Amorebieta, Zornotza, club de padel, club"
-    />
-    <meta name="author" content="Nerea, Erika, Belen, Moisés" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/asociacion.css" />
-    <link rel="stylesheet" href="styles/styleslide.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- //// SEO //// -->
+    <title>La Asociación | Asociación de padel de Amorebieta</title>
+    <meta name="description" content="Aqui encontrarás las noticias mas importantes del mundo del padel y de sus jugadores.">
+    <meta name="keywords" content="padel, asociacion, Amorebieta, Zornotza">
+    <meta name="author" content="Nerea, Erika, Belen, Moisés">
+    <!-- ///// FIN SEO /////// -->
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/noticias.css">
+    <link rel="stylesheet" href="styles/asociacion.css">
+    <link rel="stylesheet" href="styles/styleslide.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -25,60 +22,59 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  </head>
+</head>
+<body>
+  <nav>
+    <!-- LOGO DEL SITIO -->
+    <div class="divLogo">
+        <a href="index.html"><img src="img/logo-zpe.png" alt="Logo"></a>
+    </div>
+    <div class="divLogo2">
+        <a href="index.html"><img src="img/logo_zpe_short.png" alt="Logo-peque"></a>
+    </div>
+    <!-- NAVEGACION -->
+    <div class="divNavegacion">
+        <div class="langSeleccion">
+            <ul>
+                <li><a href="#">Euskara</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+        </div>
+        <div class="navPaginas">
+            <ul  class="dropdown">
+                <li><a href="eventos.html">EVENTOS</a></li>
+                <li><a href="noticias.html">NOTICIAS</a></li>
+                <li class="desplegable"><a href="asociacion.html">LA ASOCIACIÓN</a>
+                    <ul>
+            <li class="liSubmenu"><a href="jugadores.html">Jugadores</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+    </div>
+    <input type="checkbox" id="menu">
+    <label for="menu" class="labelBurguer"> 
+        <span class="burguer"> 
+            <i class="fa-solid fa-bars"></i> 
+        </span>
+    </label>
+    <div class="divNavegacionSP">
+        <ul>
+            <li><a href="eventos.html">EVENTOS</a></li>
+            <li><a href="noticias.html">NOTICIAS</a></li>
+            <li><a href="asociacion.html">LA ASOCIACIÓN</a>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>     
+    </div>
+</nav>   
 
-  <body>
-    <nav>
-      <!-- LOGO DEL SITIO -->
-      <div class="divLogo">
-          <a href="index.html"><img src="img/logo-zpe.png" alt="Logo"></a>
-      </div>
-      <div class="divLogo2">
-          <a href="index.html"><img src="img/logo_zpe_short.png" alt="Logo-peque"></a>
-      </div>
-      <!-- NAVEGACION -->
-      <div class="divNavegacion">
-          <div class="langSeleccion">
-              <ul>
-                  <li><a href="#">Euskara</a></li>
-                  <li><a href="#">English</a></li>
-              </ul>
-          </div>
-          <div class="navPaginas">
-              <ul  class="dropdown">
-                  <li><a href="eventos.html">EVENTOS</a></li>
-                  <li><a href="noticias.html">NOTICIAS</a></li>
-                  <li class="desplegable"><a href="asociacion.html">LA ASOCIACIÓN</a>
-                      <ul>
-              <li class="liSubmenu"><a href="jugadores.html">Jugadores</a></li>
-                      </ul>
-                  </li>
-                  <li><a href="contacto.html">CONTACTO</a></li>
-              </ul>
-          </div>
-      </div>
-      <input type="checkbox" id="menu">
-      <label for="menu"> 
-          <span class="burguer"> 
-              <i class="fa-solid fa-bars"></i> 
-          </span>
-      </label>
-      <div class="divNavegacionSP">
-          <ul>
-              <li><a href="eventos.html">EVENTOS</a></li>
-              <li><a href="noticias.html">NOTICIAS</a></li>
-              <li><a href="asociacion.html">LA ASOCIACIÓN</a>
-              <li><a href="contacto.html">CONTACTO</a></li>
-          </ul>     
-      </div>
+     <!--******************** TRABAJAR AQUI****************************** -->
 
-  </nav>   
-
-    <header class="headerAsociacion">
-      <h1>La Asociación</h1>
+    <header class="headerNoticias">
+        <h1>La Asociación</h1>
     </header>
 
-    <!--******************** TRABAJAR AQUI****************************** -->
     <main>
       <section class="s1">
         <div class="info">
@@ -258,14 +254,10 @@
 
       <div class="rrss">
         <ul>
-          <a href="#"></a
-          ><i class="fa-brands fa-facebook"></i>
-          <a href="#"></a
-          ><i class="fa-brands fa-square-instagram"></i>
-          <a href="#"></a
-          ><i class="fa-brands fa-youtube"></i>
-          <a href="#"></a
-          ><i class="fa-brands fa-tiktok"></i>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
         </ul>
       </div>
 

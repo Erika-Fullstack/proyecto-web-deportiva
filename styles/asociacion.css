@@ -123,9 +123,6 @@ button:hover {
     background-color: #f5f8fc;
     transition: 0.5s;
 }
-figure {
-    background-position: cover;
-}
 
 /* .rrss {
     display: flex;
