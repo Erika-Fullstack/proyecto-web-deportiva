@@ -431,6 +431,11 @@ header.clearSlide {
     justify-content: center;
     gap:1%;
 }
+.enlacestarjetas {
+    display: block;
+    border: red solid 2px;
+}
+
 
 .tarjAnimada {
     position: relative;
