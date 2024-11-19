@@ -427,8 +427,9 @@ header.clearSlide {
     width: 90%;
     min-height: 9rem;
     display: flex;
-    /* border: red solid 2px; */
-    justify-content: space-evenly;
+
+    justify-content: center;
+    gap:1%;
 }
 
 .tarjAnimada {
@@ -484,7 +485,7 @@ header.clearSlide {
     align-items: center;
 }
 .textoTarjeta {
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
