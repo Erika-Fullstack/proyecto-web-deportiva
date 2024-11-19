@@ -302,14 +302,21 @@ header.clearSlide {
 }
 
 .rrss {
+    /* border: red solid 2px; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 20%;
     min-height: 12rem;
     color: #7B8DA6;
     text-decoration: none;
     font-size: xx-large;
+}
+.rrss ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    /* border: yellow solid 2px; */
 }
 
 .rrss a {
@@ -630,7 +637,23 @@ header.clearSlide {
         padding-right: 0.5rem;
         padding-left: 0.5rem;
     }
-
+    .rrss {
+        /* border: red solid 2px; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        min-height: 12rem;
+        color: #7B8DA6;
+        text-decoration: none;
+        font-size: xx-large;
+    }
+    .rrss ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* border: yellow solid 2px; */
+    }
     
 
     footer {justify-content: space-between;
