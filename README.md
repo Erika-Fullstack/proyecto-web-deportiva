@@ -39,38 +39,40 @@ La página consta de 5 secciones;
 #### Página principal:
 Aqui se encuentrán todas las secciones del proyecto, hecho para darle una presentación no solo visual si no también funcional
 
-![pagprincipalSs](https://github.com/user-attachments/assets/110ad188-869a-4457-a1a1-a0f534b2b463)
+![ssprincipal](https://github.com/user-attachments/assets/5c2c2cf4-eed1-4958-adbd-be4f9e007698)
 
 
-#### Página asociacion:
-en este apartado se encuentran los datos principales y mas relevantes acerca de la historia de la que se compone la asociación, 
-proyectando el futuro de la misma, objetivos y dando visibilidad a los directivos de la asociaciòn.
+#### Página eventos:
+En esta sección se presenta la información de los torneos en los cuales participa esta asociación, incluye el calendario de torneos y proximos eventos.
 
-![asociacionSs](https://github.com/user-attachments/assets/92af510d-2116-4940-bd37-5e2e3c7d7ebc)
-
+![SSASOCIACION](https://github.com/user-attachments/assets/7914db3b-1294-4bc0-af5c-820beb8154a0)
 
 
 #### Página noticias:
 Es la sección en la que de manera breve se informa de las cosas más nuevas e importantes del mundo del padel.
 Al clicar en cada noticia te dirige a la página con toda la información.
 
-![noticiasSs](https://github.com/user-attachments/assets/7ddf3ba2-bbdc-47b9-bd21-32ec3c2eb999)
+![SSNOTICIAS](https://github.com/user-attachments/assets/de82f08c-4460-4cb0-8623-a5ce4a99f5e3)
 
-#### Página eventos:
-En esta sección se presenta la información de los torneos en los cuales participa esta asociación, incluye el calendario de torneos y proximos eventos.
 
-![eventosSs](https://github.com/user-attachments/assets/2db36343-61e6-4f11-a1c2-fa394698bf8d)
+#### Página asociacion:
+en este apartado se encuentran los datos principales y mas relevantes acerca de la historia de la que se compone la asociación, 
+proyectando el futuro de la misma, objetivos y dando visibilidad a los directivos de la asociaciòn.
 
-#### Página contacto:
-Aqui se incluye un mapa y una solicitud de inscripción para formar parte de la asociacion y saber su ubicación.
-
-![contactoSs](https://github.com/user-attachments/assets/3f03a4a8-bdec-4e5e-bd70-2dc7b9c3e4f9)
+![SSEVENTOS](https://github.com/user-attachments/assets/24612354-fe0b-4617-a579-a5783406ce88)
 
 
 #### Página de jugadores:
 Se muestra la imagén e información principal de algunos de los miembros de la asociación
 
-![jugadoresimg](https://cdn.discordapp.com/attachments/1303640655347585024/1306957978544640072/vistaJugadores.png?ex=673bdab8&is=673a8938&hm=06e776af62a893a8861878799384cf496ed262146176ad39dec3ac2c02a9fc5e&)
+![SSJUGADORES](https://github.com/user-attachments/assets/8a0f49d1-b701-435a-89c1-c506921e7754)
+
+
+#### Página contacto:
+Aqui se incluye un mapa y una solicitud de inscripción para formar parte de la asociacion y saber su ubicación.
+
+![SSCONTACTO](https://github.com/user-attachments/assets/c03274de-2ace-4409-b77f-1c173fef2107)
+
 
 <img src="img/logo-zpe.png" alt="logo" width="300" height="90" />
 
