@@ -146,7 +146,6 @@ section {
     /* border: 4px red dotted; */
 }
 
-
 /*************** CLASES NOMBRADAS ***********************/
 header.clearSlide {
     position: relative;
@@ -243,6 +242,28 @@ header.clearSlide {
     justify-content: space-evenly;
     flex-wrap: nowrap;
 }
+.seccionInicio2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    background-color: #081526;
+    padding-top: 2%;
+}
+.seccionInicio2 div p {
+    color: #f5f8fc;
+}
+.seccionInicio2 div h2 {
+    color:#B3D92B;
+}
+
+.seccionInicio3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
 
 .imgInicio {
    
@@ -267,7 +288,9 @@ header.clearSlide {
     flex-wrap: wrap;
     width: 80%;
     padding-left: 2rem;
+    padding-right: 2rem;
     min-height: 15rem;
+    /* border: green solid 2px; */
 }
 
 .divInicio3 {
@@ -276,24 +299,36 @@ header.clearSlide {
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
-    padding-left: 2rem;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
     min-height: 15rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    /* background-color: #081526; */
 }
 
 .columnas {
+    margin-top: 2%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 2%; */
     width: 100%;
+    /* border: red solid 2px; */
 }
 
 .columna {
-    width: 80%;
+    width: 22%;
     height: auto;
-    border: 1px solid #618C03;
-    margin: 20px;
+    border: 0.15rem solid rgb(245, 248, 252,.1);
     padding: 1rem;
+    border-radius: 0.7rem;
+    margin-bottom: 1%;
+    
+}
+.columna h5 {
+    color: #b3d92b;
+    
 }
 
 .logoFooter {
@@ -460,7 +495,7 @@ header.clearSlide {
 }
 .enlacestarjetas {
     display: block;
-    border: red solid 2px;
+    /* border: red solid 2px; */
 }
 
 
@@ -630,7 +665,7 @@ header.clearSlide {
 
 
     .tarjetasAccion {
-        /* border: 5px green solid; */
+       
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -642,6 +677,15 @@ header.clearSlide {
         height: 8rem;
         margin-bottom: 1rem;
         transition: 0.35s;
+    }
+    .columna {
+        width: 45%;
+        height: auto;
+        border: 0.15rem solid rgb(245, 248, 252,.1);
+        padding: 1rem;
+        border-radius: 0.7rem;
+        margin-bottom: 1%;
+        
     }
 
 }
@@ -686,6 +730,15 @@ header.clearSlide {
         justify-content: space-evenly;
         width: 100%;
         /* border: yellow solid 2px; */
+    }
+    .columna {
+        width: 100%;
+        height: auto;
+        border: 0.15rem solid rgb(245, 248, 252,.1);
+        padding: 1rem;
+        border-radius: 0.7rem;
+        margin-bottom: 1%;
+        
     }
     
 
@@ -817,6 +870,14 @@ header.clearSlide {
         flex-wrap: wrap;
         min-height: 65rem;
     }
+    .seccionInicio3 {
+        border: 2px red solid;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+   
     .divInicio {
         display: flex;
         justify-content: center;
@@ -831,15 +892,16 @@ header.clearSlide {
         margin-top: 0;
     
     }
-    .divInicio2 {
+    .divInicio2, .divInicio3 {
+        padding-top: 2rem;
         display: flex;
         justify-content: left;
         align-content: center;
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
-        padding-left:0.5rem;
-        padding-right:0.5rem;
+        padding-left:1rem;
+        padding-right:1rem;
         min-height: 15rem;
     }
     
@@ -887,6 +949,21 @@ header.clearSlide {
 
     .rrss ul li {justify-content: center;}
 
+    .desplegable {
+        min-height: 6rem;
+        justify-content: space-evenly;
+    }
+
+    .liSubmenu {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        min-height: 2rem;
+        justify-content: center;
+        align-items: center;
+        border-bottom: none;
+    }
+
     .tarjetasAccion {
         /* border: 5px green solid; */
         width: 100%;
@@ -917,6 +994,21 @@ header.clearSlide {
     #boton1 a {
         color:#081526;
     
+    }
+
+    .divInicio3 {
+        display: flex;
+        justify-content: left;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        min-height: 15rem;
+        margin-bottom: 3rem;
+        /* background-color: #081526; */
     }
    
 
