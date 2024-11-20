@@ -1,5 +1,6 @@
+<img src="C:\Users\Usuario\Downloads\Logo marketing digital moderno degradado morado naranja negro y blanco\2.png" />
 
-# :sparkles:Proyecto web deportiva:sparkles:
+:sparkles:Proyecto web deportiva:sparkles:
 
 ### Se trabajó en un proyecto en el que se desea crear una página web para una asociación ddeportiva de pádel
 La página consta de 5 secciones; 
@@ -76,7 +77,13 @@ Aqui se incluye un mapa y una solicitud de inscripción para formar parte de la 
 
 <img src="img/logo-zpe.png" alt="logo" width="300" height="90" />
 
-## :sparkles:Hecho por Nerea, Moisés, Erika, David y Belén.:sparkles:
+## :sparkles:Equipo:
+Nerea: https://github.com/nereasaga
+<br/>
+Moisés: https://github.com/moisescolman
+<br/>
+Érika: https://github.com/Erika-Fullstack
+<br/>
+Belén: https://github.com/b6l6n
 
-
-
+<img src="">
