@@ -649,7 +649,7 @@ header.clearSlide {
     font-weight: bold;
     text-align: center;
     user-select: none;
-  }
+}
 
   .divNavegacionSP {
     position: fixed;
@@ -663,10 +663,40 @@ header.clearSlide {
     transition: 500ms;
     /* transition-delay: 500ms; */
     transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
-
-
 }
 
+.faq {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    justify-content: center;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+}
+
+.faq a {
+    text-align: center;
+    color: #7B8DA6;
+    font-size: 0.7rem;
+    width: 90%;
+}
+
+.empresa {
+    width: 90%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    color: #7B8DA6;
+    }
+
+.empresa p {
+    text-align: center;
+    color: #7B8DA6;
+}
+
+.logonebula {
+    width: 12rem;
+}
 
 
 
@@ -812,7 +842,7 @@ header.clearSlide {
         align-items: center;
         width: 100%;
             border-bottom: 1px solid white;
-}
+    }
 
 
     nav ul li a {color: white;}
