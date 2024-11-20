@@ -706,10 +706,6 @@ header.clearSlide {
 @media (max-width:960px) {
     nav {
         justify-content: space-between;
-        position:relative
-    }
-    header {
-        padding-top: 0;
     }
 
     .divLogo {
@@ -785,6 +781,13 @@ header.clearSlide {
 /*  Codigo pagina en smartphone   */    
 
 @media (max-width:768px) { 
+
+    nav {
+        position:relative
+    }
+    header {
+        padding-top: 0;
+    }
 
     .labelBurguer {display: block;
         position:fixed;
