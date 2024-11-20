@@ -255,6 +255,19 @@ article {
             /* padding: 1rem; */
 
         }
+        article {
+            /* border: red 2px solid; */
+            margin-top: 2%;
+            margin-bottom: 2%;
+            padding-top: 2.5%;
+            padding-left: 3%;
+            padding-right: 3%;
+            padding-bottom: 3%;
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+        
+        }
     
         .grid-container img {
             /* height: auto;
@@ -271,9 +284,10 @@ article {
         
 
         section {width: 100%;}
-    section div {width: 100%;
-    padding-right: 0;
-    padding-left: 0;}
-    article {border-radius: 0;
-        box-shadow: none;}
+        section div {width: 100%;
+        padding-right: 0;
+        padding-left: 0;}
+        article {border-radius: 0;
+        /* box-shadow: none;} */
+    }
     }
