@@ -17,9 +17,7 @@
     font-family: Padel;
 }
 
-header {
-    padding-top: 5rem;
-}
+
 
 nav {
     position: fixed;
@@ -116,6 +114,7 @@ header {
     min-height: 40rem;
     width: 100%;
     z-index: 2;
+    padding-top: 5rem;
 }
 
 main {

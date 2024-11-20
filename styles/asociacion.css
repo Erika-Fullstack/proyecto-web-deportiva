@@ -1,5 +1,5 @@
 .headerAsociacion {
-    min-height: 25rem;
+    min-height: 30rem;
     width: 100%;
     background-image: url('/img/asociacion/pistapadel.jpg');
     background-repeat: no-repeat;
@@ -148,6 +148,11 @@ button:hover {
 @media (max-width:960px) {
     .texto {width: 100%;}
     main {background-color: white;}
+
+    .headerAsociacion {
+        min-height: 15rem;
+    }
+
     .info {flex-direction: column;
         width: 100%;
     }
@@ -173,16 +178,26 @@ button:hover {
         transition: all 400ms ease;
     }
 
+    .card img {
+        height: auto;
+    }
+
 }
 
 /*  Codigo pagina en smartphone   */
 
-@media (max-width:480px) { 
+@media (max-width:768px) { 
     .texto {width: 100%;} 
     main {background-color: white;}
+
+    .headerAsociacion {
+        min-height: 10rem;
+    }
+
     .info {flex-direction: column;
     width: 100%;
     }
+
 
     .container {
         flex-direction: column;
@@ -202,7 +217,5 @@ button:hover {
         height: auto;
     }
 
-    .card img {
-        height: auto;
-    }
+
 }
