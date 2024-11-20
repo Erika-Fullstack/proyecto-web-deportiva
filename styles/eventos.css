@@ -38,14 +38,14 @@ h4 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     font-weight: bolder;
-    width: 70%
+    /* width: 70% */
 }
 
 h5 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    width: 70%;
+    /* width: 70%; */
 }
 
 p {
@@ -137,25 +137,30 @@ article {
         
 .torneo,
 .copa {
-        display: flex; 
-        flex-direction: column;
-        justify-content: space-around; 
-        align-items: center; 
+        display: inline-block; 
+        vertical-align: top;
         }
         
-.torneo img,
 .copa img {
-        width: 30%; 
-        height: auto; 
-        border-radius: 1rem; 
-        }
+    float: right;
+    width: 30%; 
+    height: auto; 
+    border-radius: 1rem; 
+    margin-top: 7.5rem;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.torneo img{
+    float: left;
+    width: 30%; 
+    height: auto; 
+    border-radius: 1rem; 
+    margin-top: 7.5rem;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    }
         
-.torneo div,
-.copa div {
-        display: block; 
-        padding: 1rem; 
-        width: 60%;
-        }
         
 .copa {
         flex-direction: row-reverse;
@@ -325,6 +330,7 @@ article {
       }
 
 
+
  /*   MENU HAMBRUGUESA   */
 #menu {
     display: none;
@@ -332,10 +338,12 @@ article {
     top: 0rem;
     right:0rem 
 }
-.labelBurguer {display: none;
+.labelBurguer {
+    display: none;
     position:fixed;
         top: 0rem;
-        right:0rem }
+        right:0rem 
+    }
 
 .burguer {
     box-sizing: border-box;
@@ -377,14 +385,24 @@ article {
 /*    Codigo pag en tablet       */
 
 @media (max-width:960px) {
-    .headerEventos {min-height: 10rem;}
-    section {width: 90%;}
-    section div {width: 90%;
+    .headerEventos {
+        min-height: 10rem;
+    }
+    section {
+        width: 90%;
+    }
+    section div {
+        width: 90%;
         padding-right: 2rem;
-        padding-left: 2rem;}
-    h2 {display: flex;
+        padding-left: 2rem;
+    }
+    h2 {
+        display: flex;
         justify-content: center;
-        margin-top: 1rem;}
+        margin-top: 1rem;
+        text-align: center;
+    }
+
 
     h3 {
         width: 100%;
@@ -427,28 +445,23 @@ article {
         width: 100%
     }
 
+
 /*   TARJETAS TEXTO   */
-    .copa {
-        flex-direction: column;
-        width: 100%;
-    }
+.copa img {
+    width: 40%;
+    margin-top: 10.5rem;
+}
 
-    .torneo {
-        flex-direction: column;
-        width: 100%;
-    }
+.torneo img {
+    width: 40%;
+    margin-top: 10.5rem;
+}
 
-    .torneo img,
+    /* .torneo img,
     .copa img {
         display: none;
-        }
+        } */
         
-    .torneo div,
-    .copa div {
-        display: block; 
-        padding: 1rem; 
-        width: 100%;
-        }
     
 /*   MENU NAVEGADOR   */
     .divLogo {
@@ -476,10 +489,15 @@ article {
 } */
 
 /*   FOOTER   */
-    footer {justify-content: space-between;
+    footer {
+        justify-content: space-between;
             }
-    .logoFooter {padding-left: 2rem;}
-    .navFooter {padding-right: 2rem;}
+    .logoFooter {
+        padding-left: 2rem;
+    }
+    .navFooter {
+        padding-right: 2rem;
+    }
 
 }
 
@@ -487,20 +505,32 @@ article {
 /*  Codigo pagina en smartphone   */    
 
 @media (max-width:768px) { 
-    .headerEventos {min-height: 10rem;}
-    section {width: 100%;}
-    section div {width: 100%;
+    .headerEventos {
+        min-height: 10rem;
+    }
+    section {
+        width: 100%;
+    }
+    section div {
+        width: 100%;
     padding-right: 0;
-    padding-left: 0;}
-    h2 {display: flex;
+    padding-left: 0;
+}
+    h2 {
+        display: flex;
     justify-content: center;
-    margin-top: 1rem;}
-    article {border-radius: 0;
-        box-shadow: none;}
-    table {border-radius: 0;
+    margin-top: 1rem;
+}
+    article {
+        border-radius: 0;
+        /* box-shadow: none; */
+    }
+    table {
+        border-radius: 0;
         -moz-border-radius: 0;
-        box-shadow: none;
-        margin-bottom: 1rem;}
+        /* box-shadow: none; */
+        margin-bottom: 1rem;
+    }
     th:first-of-type {border-top-left-radius: 0;}
     
     th:last-of-type {border-top-right-radius: 0; }
@@ -511,20 +541,26 @@ article {
     th {font-size: 1.5rem;}
 
     /*   MENU HAMBURGUESA   */
-    .labelBurguer {display: block;
+    .labelBurguer {
+        display: block;
         position:fixed;
         top: 0rem;
         right:0rem;
-        z-index: 101; }
+        z-index: 101; 
+    }
 
-    #menu {display: none;
+    #menu {
+        display: none;
             position:fixed;
             top: 0rem;
             right:0rem;
-            z-index: 101; }
+            z-index: 101; 
+        }
 
-    nav ul {width: 100%;
-        color: white;}
+    nav ul {
+        width: 100%;
+        color: white;
+    }
 
     nav ul li {
         display: flex;
@@ -597,6 +633,31 @@ article {
         width: 100%;
     }
 
+    /* .copa {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .torneo {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .torneo img,
+    .copa img {
+        display: block;
+        width: 100%;
+        align-self: flex-end;
+        }
+         */
+
+    /*   TARJETAS TEXTO   */
+    .copa img,
+    .torneo img {
+        width: 100%;
+        margin-top: 0;
+    }
+    
     /*   FOOTER   */
     footer {flex-direction: column;
         align-items: center;}
