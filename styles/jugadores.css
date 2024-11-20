@@ -29,6 +29,7 @@
      padding: 2rem;
      text-align: center;
      margin: auto 2rem;
+     transition: 0.3s;
    }
    .card h3, p {
     text-align: center;
