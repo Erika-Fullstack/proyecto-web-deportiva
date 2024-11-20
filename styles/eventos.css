@@ -256,6 +256,7 @@ article {
         background-color: white;
         border-radius: 1rem;
         box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+        transition: 0.3s;
  }
 
  .container_logo {
