@@ -203,8 +203,42 @@ article {
     .divInicio {
         /* border: yellow solid 3px; */
         width: 80%;
-        min-height: 15rem;}
+        min-height: 15rem;
+    }
+
+    .faq {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 3rem;
+        justify-content: center;
+        margin-top: 3rem;
+        line-height: 1.5rem;
+    }
+
+    .faq a {
+        text-align: center;
+        color: #7B8DA6;
+        font-size: 0.7rem;
+        width: 90%;
+    }
    
+    .empresa {
+        width: 90%;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        color: #7B8DA6;
+        }
+
+    .empresa p {
+        text-align: center;
+        color: #7B8DA6;
+    }
+
+    .logonebula {
+        width: 12rem;
+    }
+
     /******************* MEDIA QUERIES ******************/
   
     /*    Codigo pagina en tablet       */
