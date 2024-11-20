@@ -16,7 +16,6 @@
     /* border: yellow solid 2px; */
     display: flex;
     margin-top: 1rem;
-    display: flex;
     flex-direction: row; /* Initial layout: row */
 }
 
