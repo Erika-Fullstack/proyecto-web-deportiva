@@ -52,6 +52,20 @@ p {
     /* width: 60%; */
 }
 
+.divLogo2 {
+    display:none
+}
+
+.headerEventos {
+    min-height: 25rem;
+    width: 100%;
+    background-image: url('/img/eventos/head-eventos.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*   TABLA   */
 table {
     width: 70%;
     text-align: center;
@@ -81,7 +95,7 @@ th {
     font-weight: bolder;
 }
 
-
+/*   HOVER TABLA   */
 th:first-of-type {border-top-left-radius: 1rem;}
     
 th:last-of-type {border-top-right-radius: 1rem; }
@@ -106,7 +120,7 @@ table tr:hover td {
     margin: 2rem;
     }
 
-
+/*   TARJETAS TEXTO   */
 article {
         display: flex;
         flex-direction: column; 
@@ -153,22 +167,9 @@ article {
         }
 
 
-.divLogo2 {
-    display:none
-}
 
 
-
-.headerEventos {
-    min-height: 25rem;
-    width: 100%;
-    background-image: url('/img/eventos/head-eventos.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-
+/*     SUBMENU    */
 .desplegable {
     position: relative;
 }
@@ -238,7 +239,7 @@ article {
 } */
 
 
- /* / Contenedor fechas flex / */
+ /*  TARJETAS PARTIDOS  */
  .container_fechas {
       display: flex;
       position: relative;
@@ -316,6 +317,7 @@ article {
  }
 
 
+ /*   MENU HAMBRUGUESA   */
 #menu {
     display: none;
     position:fixed;
@@ -384,6 +386,8 @@ article {
         justify-content: space-between;
     }
 
+
+    /*     TARJETAS PARTIDOS    */
     .container_logo {
         min-height: 17rem;
     }
@@ -409,9 +413,13 @@ article {
         font-size: 2rem;
      }
 
+
+/*   TABLA   */
     table {
         width: 100%
     }
+
+/*   TARJETAS TEXTO   */
     .copa {
         flex-direction: column;
         width: 100%;
@@ -434,7 +442,7 @@ article {
         width: 100%;
         }
     
-
+/*   MENU NAVEGADOR   */
     .divLogo {
             min-height: 4rem;
             padding-left: 1rem;
@@ -459,6 +467,7 @@ article {
         font-size: 1rem;
 } */
 
+/*   FOOTER   */
     footer {justify-content: space-between;
             }
     .logoFooter {padding-left: 2rem;}
@@ -493,6 +502,7 @@ article {
     tr:last-of-type td:last-of-type {border-bottom-right-radius: 0;}
     th {font-size: 1.5rem;}
 
+    /*   MENU HAMBURGUESA   */
     .labelBurguer {display: block;
         position:fixed;
         top: 0rem;
@@ -573,11 +583,13 @@ article {
         border-bottom: none;
     }
 
+    /*   TARJETAS PARTIDOS   */
     .container_fechas {
         border-radius: 0px;
         width: 100%;
     }
 
+    /*   FOOTER   */
     footer {flex-direction: column;
         align-items: center;}
     
