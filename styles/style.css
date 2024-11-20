@@ -17,7 +17,12 @@
     font-family: Padel;
 }
 
+header {
+    padding-top: 5rem;
+}
+
 nav {
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +30,7 @@ nav {
     display: flex;
     background-color: white;
     min-height: 5rem;
+    z-index: 300;
 }
 .langSeleccion ul li {
     width: 100%;
@@ -700,6 +706,10 @@ header.clearSlide {
 @media (max-width:960px) {
     nav {
         justify-content: space-between;
+        position:relative
+    }
+    header {
+        padding-top: 0;
     }
 
     .divLogo {
