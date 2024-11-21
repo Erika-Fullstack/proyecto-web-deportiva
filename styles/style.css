@@ -137,6 +137,7 @@ p {
 }
 
 footer {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -371,8 +372,48 @@ header.clearSlide {
     transition: 0.5s;
 } */
 
-.copyright {
+.faq {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    justify-content: center;
+    margin-top: 3rem;
+    line-height: 1.5rem;
+}
+
+.faq a, .faq ul {
+    list-style: none;
+    font-family: Padel;
+    line-height: 1.7rem;
+    text-align: left;
+    color: #7B8DA6;
+    font-size: 0.7rem;
     width: 90%;
+}
+
+.empresa {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #7B8DA6;
+    }
+
+.empresa p {
+    font-size: 1rem;
+    text-align: center;
+    color: #7B8DA6;
+}
+
+.logonebula {
+    margin-left: 1rem;
+    width: 12rem;
+}
+
+.copyright {
+    width: 100%;
 
 }
 
@@ -583,6 +624,7 @@ header.clearSlide {
 
 
 .dropdown li ul {
+
     position: absolute;
     top: 100%;
     left: 0px;
@@ -652,6 +694,7 @@ header.clearSlide {
 }
 
   .divNavegacionSP {
+    
     position: fixed;
     top: 0rem;
     left: -50rem;
@@ -665,38 +708,7 @@ header.clearSlide {
     transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.faq {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 3rem;
-    justify-content: center;
-    margin-top: 3rem;
-    line-height: 1.5rem;
-}
 
-.faq a {
-    text-align: center;
-    color: #7B8DA6;
-    font-size: 0.7rem;
-    width: 90%;
-}
-
-.empresa {
-    width: 90%;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-    color: #7B8DA6;
-    }
-
-.empresa p {
-    text-align: center;
-    color: #7B8DA6;
-}
-
-.logonebula {
-    width: 12rem;
-}
 
 
 
@@ -774,6 +786,30 @@ header.clearSlide {
         width: 100%;
         /* border: yellow solid 2px; */
     }
+    .faq  {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 3rem;
+        justify-content: center;
+        margin-top: 3rem;
+        line-height: 1.5rem;
+    }
+    .faq ul li{
+        display: inline;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    
+    .faq a, .faq ul {
+        list-style: none;
+        font-family: Padel;
+        line-height: 1.7rem;
+        text-align: center;
+        color: #7B8DA6;
+        font-size: 0.7rem;
+        width: 90%;
+    }
     .columna {
         width: 100%;
         height: auto;
@@ -812,10 +848,10 @@ header.clearSlide {
         justify-content: center;
         flex-wrap: wrap;
         min-height: 65rem;
-        border: green solid 2px;
+
     }
     .seccionInicio3 {
-        border: 2px red solid;
+ 
         display: flex;
         width: 100%;
         justify-content: space-evenly;
@@ -837,7 +873,7 @@ header.clearSlide {
         align-items: center;
         width: 100%;
         min-height: 15rem;
-        border: red solid 2px;
+
     }
 
 }
@@ -876,7 +912,8 @@ header.clearSlide {
         justify-content: center;
         align-items: center;
         width: 100%;
-            border-bottom: 1px solid white;
+        /* border-radius: 0.5rem; */
+        border-bottom: 0.12rem solid rgb(255, 255, 255, .3);
     }
 
 
@@ -1036,12 +1073,43 @@ header.clearSlide {
 
     .rrss ul li {justify-content: center;}
 
+    .faq ul li{
+        display: block;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .faq a, .faq ul {
+        list-style: none;
+        font-family: Padel;
+        text-align: center;
+        color: #7B8DA6;
+        font-size: 0.7rem;
+        width: 90%;
+        line-height: 2rem;
+    }
+    .menuMobile {
+        position: relative;
+        background-color: #618C03;
+        min-height: 5rem;
+    }
+    .menuMobile2 {
+        position: relative;
+        background-color: #6ea002;
+        min-height: 5rem;
+    }
+
+
     .desplegable {
-        min-height: 6rem;
+        position: relative;
+        border: red 1px solid;
+        min-height: 9rem;
         justify-content: space-evenly;
     }
 
     .liSubmenu {
+        background-color: #b3d92b;
+        border: yellow 1px solid;
         display: flex;
         width: 100%;
         text-align: center;
