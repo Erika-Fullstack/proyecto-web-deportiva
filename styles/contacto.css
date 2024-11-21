@@ -164,47 +164,75 @@ iframe {
     h2 {display: flex;
     justify-content: center;
     margin-top: 1rem;}
-    p {margin-left: 1.5rem;
+    .divContacto2 p {margin-left: 1.5rem;
         margin-right: 1.5rem;}
 }
+
+
     
 /*  Codigo pagina en smartphone   */    
 
 @media (max-width:768px) {
-    .headerContacto {min-height: 10rem;}
-    section {width: 100%;
+    .headerContacto {
+        min-height: 10rem;
+    }
+    section {
+        width: 100%;
         display:flex;
         flex-direction: column-reverse;
         align-items: center;
         }
-    .divContacto {width: 100%;}
-    .divContacto2 {width: 100%;
+    .divContacto {
+        width: 100%;
+    }
+    .divContacto2 {
+        width: 100%;
         justify-content: center;
         padding-left: 0px;
-        padding-right: 0px;}
-    article { border-radius: 0;
+        padding-right: 0px;
+    }
+    article { 
+        width: 100%;
+        border-radius: 0;
         box-shadow: none;
         padding-left: 0;
-        padding-right: 0;}
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
     form {
-        width: 95%;
-        /* padding-right: 1rem; */
-        padding-left: 1rem;
+        width: 85%;
+        align-items: center;
+        padding-right: 1rem;
+        /* padding-left: 1rem; */
 
     }
 
-    textarea {
+    /* textarea {
         padding-left: 1rem;
-    }
-    h2 {display: flex;
+    } */
+    h2 {
+        display: flex;
     justify-content: center;
-    margin-top: 1rem;}
-    p {margin-left: 1.5rem;
-        margin-right: 1.5rem;}
-    iframe {border-radius: 0;}
+    margin-top: 1rem;
+}
+    .divContacto2 p {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    iframe {
+        border-radius: 0;
+    }
 
     main {
         width:100%
     }
+
+    .empresa p {
+        padding: 0px;
+        margin: 0px
+    }
+
+
 
  }
