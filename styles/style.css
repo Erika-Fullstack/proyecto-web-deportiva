@@ -455,6 +455,11 @@ header.clearSlide {
 }
 .navPaginas li:hover {
     background-color: #B3D92B;
+    /* color: white; */
+    transition: 0.5s;
+}
+
+.navPaginas li:hover a{
     color: white;
     transition: 0.5s;
 }
@@ -664,6 +669,17 @@ header.clearSlide {
     background-color: transparent; 
     transition: 0.5s;
 }
+
+/* .dropdown li:hover {
+    background-color: #B3D92B;
+    color:#081526;
+    transition: 0.5s;
+}
+
+.dropdown li:hover a{
+    color:white;
+    transition: 0.5s;
+} */
 
 
 #menu {display: none;
