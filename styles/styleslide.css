@@ -22,7 +22,7 @@
 html { scroll-behavior: auto; }
 
 .carrusel {
-	max-width: 50%;
+	max-width: 100%;
 	margin: 0;
 	margin-top: 5rem;
 }
@@ -68,9 +68,8 @@ html { scroll-behavior: auto; }
 	z-index: 50;
 }
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
 	.slide {
 		width: 100%;
 	}
-
 }

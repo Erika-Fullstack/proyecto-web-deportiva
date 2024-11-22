@@ -574,6 +574,7 @@ header.clearSlide {
     height: 8rem;
     transition: 0.35s;
 }
+
 .tarjAnimada:hover {
     background-color:#f5f8fc ;
     /* bottom: 1rem; */
