@@ -13,7 +13,7 @@
 .headerNoticias{
     min-height: 25rem;
     width: 100%;
-    background-image: url('/img/img.noticias/bienvenida\ padel');
+    background-image: url('../img/img.noticias/bienvenida\ padel');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -49,7 +49,7 @@
 #noticia1 {
     width: 100%;
     /* border: red solid 2px; */
-    background-image: url(/img/img.noticias/imagenpadel1);
+    background-image: url(../img/img.noticias/imagenpadel1);
     background-size: cover;
     min-height: 25rem;
     border-radius: 1rem;
@@ -59,7 +59,7 @@
 #noticia2 {
     width: 100%;
     /* border: red solid 2px; */
-    background-image: url(/img/img.noticias/imagenpadel2);
+    background-image: url(../img/img.noticias/imagenpadel2);
     background-size: cover;
     min-height: 25rem;
     border-radius: 1rem;
@@ -69,7 +69,7 @@
 #noticia3 {
     width: 100%;
     /* border: red solid 2px; */
-    background-image: url(/img/img.noticias/imagenpadel3);
+    background-image: url(../img/img.noticias/imagenpadel3);
     background-size: cover;
     min-height: 25rem;
     border-radius: 1rem;
@@ -79,7 +79,7 @@
 #noticia4 {
     width: 100%;
     /* border: red solid 2px; */
-    background-image: url(/img/img.noticias/imgnoticias4);
+    background-image: url(../img/img.noticias/imgnoticias4);
     background-size: cover;
     min-height: 25rem;
     border-radius: 1rem;
