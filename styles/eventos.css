@@ -59,7 +59,7 @@ p {
 .headerEventos {
     min-height: 25rem;
     width: 100%;
-    background-image: url('../img/eventos/head-eventos.jpg');
+    /* background-image: url('../img/eventos/head-eventos.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
